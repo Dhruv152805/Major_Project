@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.bash

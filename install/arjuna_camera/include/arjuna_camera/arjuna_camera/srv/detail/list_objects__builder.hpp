@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_generator_cpp/arjuna_camera/srv/detail/list_objects__builder.hpp

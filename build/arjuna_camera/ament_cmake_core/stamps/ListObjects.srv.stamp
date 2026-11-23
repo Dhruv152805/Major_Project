@@ -1,4 +1,0 @@
----
-string[] labels
-geometry_msgs/PoseStamped[] poses
-bool success

@@ -1,0 +1,61 @@
+# ==============================================================================
+# ROS 2 (Humble) Workspace .gitignore
+# ==============================================================================
+
+# Colcon build, install, and log directories
+build/
+install/
+log/
+COLCON_IGNORE
+**/COLCON_IGNORE
+
+# Archives and backup files
+archive/
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+*.bak
+*.swp
+*~
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+
+# C / C++ artifacts
+*.o
+*.obj
+*.a
+*.lib
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ROS bags and transient logs
+*.bag
+*.db3
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+.project
+.cproject
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

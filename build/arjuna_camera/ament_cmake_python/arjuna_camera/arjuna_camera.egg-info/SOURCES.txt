@@ -1,6 +1,0 @@
-setup.py
-arjuna_camera/__init__.py
-arjuna_camera.egg-info/PKG-INFO
-arjuna_camera.egg-info/SOURCES.txt
-arjuna_camera.egg-info/dependency_links.txt
-arjuna_camera.egg-info/top_level.txt

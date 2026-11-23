@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/motor_controller/launch/motor_controller_launch.py

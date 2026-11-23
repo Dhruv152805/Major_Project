@@ -1,4 +1,0 @@
-Invoking command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/imu_bno055 -- -j8 -l8
-Invoked command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/imu_bno055 -- -j8 -l8
-Invoking command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/imu_bno055
-Invoked command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/imu_bno055

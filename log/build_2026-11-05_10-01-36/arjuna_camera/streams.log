@@ -1,5 +1,0 @@
-[1.920s] Invoking command in '/mnt/c/Users/rishr/Downloads/Arjuna_ws_team3/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/rishr/Downloads/Arjuna_ws_team3/Arjuna_ws_team3/build/arjuna_camera -- -j16 -l16
-[2.053s] [0mCMake Error: The current CMakeCache.txt directory /mnt/c/Users/rishr/Downloads/Arjuna_ws_team3/Arjuna_ws_team3/build/arjuna_camera/CMakeCache.txt is different than the directory /home/arjuna/Arjuna_ws_team3/build/arjuna_camera where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[2.192s] [0mCMake Error: The source directory "/home/arjuna/Arjuna_ws_team3/src/arjuna_camera" does not exist.
-[2.204s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[2.211s] gmake: *** [Makefile:977: cmake_check_build_system] Error 1

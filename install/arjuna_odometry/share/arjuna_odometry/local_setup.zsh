@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/arjuna_odometry/ament_cmake_environment_hooks/local_setup.zsh

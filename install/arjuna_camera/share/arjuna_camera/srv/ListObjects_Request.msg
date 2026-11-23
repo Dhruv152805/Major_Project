@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_cmake/srv/ListObjects_Request.msg

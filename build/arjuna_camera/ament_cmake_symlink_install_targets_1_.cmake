@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_generator_py/arjuna_camera/arjuna_camera_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "arjuna_camera__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/arjuna_camera")

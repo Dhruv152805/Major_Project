@@ -1,1 +1,0 @@
-/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_generator_py/arjuna_camera/srv/_list_objects.py

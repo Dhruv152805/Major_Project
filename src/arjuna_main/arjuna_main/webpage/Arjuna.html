@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARJUNA // Autonomous Fleet Telemetry &amp; Bidding Dashboard</title>
+  <link rel="stylesheet" href="Arjuna.css?v=20261123_v1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-shell">
+
+    <!-- Clean Modern App Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="app-brand">
+          <div class="brand-badge">⚡</div>
+          <div>
+            <h1 class="brand-title">ARJUNA</h1>
+            <span class="brand-subtitle">Fleet Telemetry &amp; Bidding</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segmented Navigation Pills -->
+      <div class="header-center">
+        <nav class="nav-minimal-pills" aria-label="Main Navigation">
+          <button type="button" class="nav-pill active" id="tabBtn-dashboard" onclick="switchView('dashboard')">
+            <span class="pill-icon">⚡</span> Dashboard
+          </button>
+          <button type="button" class="nav-pill" id="tabBtn-logs" onclick="switchView('logs')">
+            <span class="pill-icon">📜</span> Logs
+          </button>
+          <button type="button" class="nav-pill" id="tabBtn-maintenance" onclick="switchView('maintenance')">
+            <span class="pill-icon">🛠️</span> Maintenance
+          </button>
+        </nav>
+      </div>
+
+      <!-- Header Status & Actions -->
+      <div class="header-right">
+        <div class="fleet-status-pill" id="connStatus">
+          <span class="status-indicator-dot dot-green" id="connDot"></span>
+          <span id="connText">Live Telemetry</span>
+        </div>
+        <button type="button" class="btn btn-sm btn-outline" onclick="pollStatus()" title="Refresh telemetry">
+          🔄 Refresh
+        </button>
+        <button type="button" class="btn btn-sm btn-primary" onclick="openInjectTaskModal()">
+          + Announce Task
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Viewport -->
+    <main class="main-viewport">
+      <div class="dashboard-container">
+
+        <!-- ================= VIEW 1: LIVE DASHBOARD ================= -->
+        <div class="view-content active" id="view-dashboard">
+
+          <!-- 1. FLEET TELEMETRY -->
+          <section class="dashboard-section" id="section-robot-status">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Fleet Telemetry</h2>
+                <p class="section-subtitle">Real-time operating status, live battery, and active assignments</p>
+              </div>
+              <div class="status-legend-bar">
+                <span class="legend-pill"><span class="status-indicator-dot dot-grey"></span> Off</span>
+                <span class="legend-pill"><span class="status-indicator-dot dot-green"></span> Idle</span>
+                <span class="legend-pill"><span class="status-indicator-dot dot-red"></span> Engaged</span>
+              </div>
+            </div>
+
+            <!-- Dynamic Side-by-Side Robot Cards -->
+            <div class="robot-status-row" id="robotCardsContainer">
+              <div class="empty-state">Connecting to fleet telemetry...</div>
+            </div>
+          </section>
+
+          <!-- 2. TASK BIDDING COMPARISON TABLE (CURRENT SESSION ONLY) -->
+          <section class="dashboard-section" id="section-task-comparison">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Live Task Auctions</h2>
+                <p class="section-subtitle">Current session task allocation, bids generated, and winner determinations</p>
+              </div>
+              <div class="section-actions">
+                <button type="button" class="btn btn-sm btn-outline" onclick="openInjectTaskModal()">+ Announce Task</button>
+              </div>
+            </div>
+
+            <div class="table-card">
+              <div class="table-wrapper">
+                <table class="data-table task-comparison-table" id="taskComparisonTable">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">Task</th>
+                      <th style="width: 20%;">Bid by Arjuna 1</th>
+                      <th style="width: 20%;">Bid by Arjuna 2</th>
+                      <th style="width: 20%;">Winning Robot</th>
+                      <th style="width: 20%;">Winning Bid Difference</th>
+                    </tr>
+                  </thead>
+                  <tbody id="taskComparisonBody">
+                    <tr class="empty-row"><td colspan="5">
+                      <div class="empty-state-card">
+                        <div class="empty-state-icon">📋</div>
+                        <div class="empty-state-title">No task bidding records in current session</div>
+                        <div class="empty-state-desc">Live auction bids and winner comparisons will appear here in real-time when a task is announced. Past session records are available under the <strong>Logs</strong> tab.</div>
+                      </div>
+                    </td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. COMPARATIVE TABLE: OLD VS ENHANCED FORMULA -->
+          <section class="dashboard-section" id="section-formula-comparison">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Bidding Formula Comparison</h2>
+                <p class="section-subtitle">Evaluation of previous formula vs. active enhanced formula with safety multiplier <code>m</code></p>
+              </div>
+              <span class="badge badge-emerald mono">Safety Rule: m = 0 if Battery &lt; 10%, else 1</span>
+            </div>
+
+            <!-- Side-by-Side Clean Formula Cards -->
+            <div class="formula-comparison-grid">
+              <div class="formula-comparison-card old-formula-card">
+                <div class="fcard-header">
+                  <span class="formula-type-badge badge-neutral">PREVIOUS SPECIFICATION</span>
+                  <span class="text-xs text-amber bold">⚠️ No low-battery protection</span>
+                </div>
+                <div class="fcard-math mono">
+                  Bid<sub>old</sub> = (w<sub>d</sub> · D) + (w<sub>b</sub> · (1 - B)) + (w<sub>f</sub> · F) + Penalties
+                </div>
+                <div class="fcard-caption text-xs text-muted">
+                  Produces positive bids regardless of critical battery, which can cause a depleted robot to win and stall mid-mission.
+                </div>
+              </div>
+
+              <div class="formula-comparison-card enhanced-formula-card">
+                <div class="fcard-header">
+                  <span class="formula-type-badge badge-success">ENHANCED SPECIFICATION (ACTIVE)</span>
+                  <span class="text-xs text-emerald bold">🛡️ Protected with variable m</span>
+                </div>
+                <div class="fcard-math mono highlight">
+                  Bid<sub>enhanced</sub> = <span class="var-m-highlight">m</span> × [ (w<sub>d</sub> · D) + (w<sub>b</sub> · (1 - B)) + (w<sub>f</sub> · F) + Penalties ]
+                </div>
+                <div class="fcard-caption text-xs text-muted">
+                  When battery drops below 10%, <code>m = 0</code> automatically zeroes the bid (disqualification) to award the task to a healthy peer.
+                </div>
+              </div>
+            </div>
+
+            <!-- Comparative Table -->
+            <div class="table-card mt-3">
+              <div class="table-wrapper">
+                <table class="data-table formula-comparison-table" id="formulaComparisonTable">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">Robot</th>
+                      <th style="width: 15%;">Live Battery</th>
+                      <th style="width: 13%;">Variable <em>m</em></th>
+                      <th style="width: 17%;">Old Formula Bid</th>
+                      <th style="width: 17%;">Enhanced Formula Bid</th>
+                      <th style="width: 18%;">Safety &amp; Operational Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="formulaComparisonBody">
+                    <tr class="empty-row"><td colspan="6">Loading formula comparison data...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- ================= VIEW 2: LOGS TAB (ALL HISTORICAL RECORDS) ================= -->
+        <div class="view-content" id="view-logs" style="display: none;">
+
+          <section class="dashboard-section" id="section-historical-logs">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Historical Task Bidding Logs</h2>
+                <p class="section-subtitle">Archive of all past auction bidding comparisons and allocations</p>
+              </div>
+              <div class="section-actions">
+                <span class="badge badge-subtle mono" id="logsCountBadge">0 Records</span>
+              </div>
+            </div>
+
+            <div class="table-card">
+              <div class="table-wrapper">
+                <table class="data-table task-comparison-table" id="historicalTaskComparisonTable">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">Task</th>
+                      <th style="width: 20%;">Bid by Arjuna 1</th>
+                      <th style="width: 20%;">Bid by Arjuna 2</th>
+                      <th style="width: 20%;">Winning Robot</th>
+                      <th style="width: 20%;">Winning Bid Difference</th>
+                    </tr>
+                  </thead>
+                  <tbody id="historicalTaskComparisonBody">
+                    <tr class="empty-row"><td colspan="5">Loading historical bidding records...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <!-- Audit Event Stream -->
+          <section class="dashboard-section" id="section-telemetry-events">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Telemetry &amp; Event Stream</h2>
+                <p class="section-subtitle">Chronological record of task announcements, awards, and telemetry updates</p>
+              </div>
+            </div>
+
+            <div class="table-card">
+              <div class="event-log-container" id="eventLogContainer">
+                <div class="empty-state">No events logged yet.</div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- ================= VIEW 3: MAINTENANCE TAB ================= -->
+        <div class="view-content" id="view-maintenance" style="display: none;">
+
+          <section class="dashboard-section" id="section-maintenance">
+            <div class="section-top-bar">
+              <div class="section-title-wrap">
+                <h2 class="section-title">Fleet Maintenance Monitor</h2>
+                <p class="section-subtitle">Operating runtime, travel distance, completed tasks, and service thresholds</p>
+              </div>
+              <div class="section-actions">
+                <span class="badge badge-emerald mono" id="maintFleetStatusBadge">All Systems Operational</span>
+              </div>
+            </div>
+
+            <!-- Side-by-Side Robot Maintenance Cards -->
+            <div class="maintenance-cards-grid" id="maintenanceCardsContainer">
+              <div class="empty-state">Loading maintenance telemetry for Arjuna 1 &amp; Arjuna 2...</div>
+            </div>
+
+            <!-- Maintenance Threshold Comparison Table -->
+            <div class="table-card mt-4">
+              <div class="table-header-bar">
+                <span class="table-header-title">Maintenance Threshold &amp; Metric Comparison</span>
+                <span class="text-xs text-muted mono">Thresholds: 50.0 hrs &bull; 500.0 m &bull; 25 tasks</span>
+              </div>
+              <div class="table-wrapper">
+                <table class="data-table" id="maintenanceComparisonTable">
+                  <thead>
+                    <tr>
+                      <th style="width: 16%;">Robot</th>
+                      <th style="width: 18%;">Hours Worked</th>
+                      <th style="width: 18%;">Total Time Worked</th>
+                      <th style="width: 18%;">Distance Traveled</th>
+                      <th style="width: 14%;">Tasks Done</th>
+                      <th style="width: 16%;">Maintenance Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="maintenanceComparisonBody">
+                    <tr class="empty-row"><td colspan="6">Loading maintenance telemetry...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+    </main>
+
+    <!-- ================= ROBOT DETAILED VIEW MODAL ================= -->
+    <div class="modal-backdrop" id="robotDetailModal" style="display: none;">
+      <div class="modal-card modal-xl">
+        <div class="modal-header">
+          <div class="modal-title-cluster">
+            <span class="modal-icon">🤖</span>
+            <h3 class="modal-title" id="robotDetailTitle">Robot Detailed View</h3>
+          </div>
+          <div class="modal-header-actions">
+            <div class="modal-tabs-pill">
+              <button type="button" class="btn-subtab active" id="btnSwitchDetail-arjuna_1" onclick="selectDetailRobot('arjuna_1')">Arjuna 1</button>
+              <button type="button" class="btn-subtab" id="btnSwitchDetail-arjuna_2" onclick="selectDetailRobot('arjuna_2')">Arjuna 2</button>
+            </div>
+            <button type="button" class="btn-modal-close" onclick="closeRobotDetailModal()" aria-label="Close modal">&times;</button>
+          </div>
+        </div>
+
+        <div class="modal-body" id="robotDetailModalBody">
+          <!-- Injected dynamically with live telemetry, measured parameters, formula substitution, and bid -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= ANNOUNCE TASK MODAL ================= -->
+    <div class="modal-backdrop" id="injectTaskModal" style="display: none;">
+      <div class="modal-card modal-sm">
+        <div class="modal-header">
+          <h3 class="modal-title">Announce New Task</h3>
+          <button type="button" class="btn-modal-close" onclick="closeInjectTaskModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group mb-3">
+            <label class="form-label" for="inpTaskId">Task Identifier</label>
+            <input type="text" id="inpTaskId" value="T07" class="form-input mono" placeholder="e.g. T01">
+          </div>
+          <div class="form-row mb-3" style="display: flex; gap: 10px;">
+            <div class="form-group flex-1">
+              <label class="form-label" for="inpTaskX">Coordinate X (m)</label>
+              <input type="number" id="inpTaskX" value="1.50" step="0.1" class="form-input mono">
+            </div>
+            <div class="form-group flex-1">
+              <label class="form-label" for="inpTaskY">Coordinate Y (m)</label>
+              <input type="number" id="inpTaskY" value="2.00" step="0.1" class="form-input mono">
+            </div>
+          </div>
+          <div class="modal-actions" style="display:flex; justify-content:flex-end; gap:8px; margin-top:16px;">
+            <button type="button" class="btn btn-outline" onclick="closeInjectTaskModal()">Cancel</button>
+            <button type="button" class="btn btn-primary" onclick="submitInjectTask()">Announce Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="Arjuna.js?v=20261123_v1"></script>
+</body>
+</html>

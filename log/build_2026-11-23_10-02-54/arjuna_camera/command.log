@@ -1,0 +1,1 @@
+Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhruv/Arjuna_ws_team3/src/arjuna_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/arjuna_camera

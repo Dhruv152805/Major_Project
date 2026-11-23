@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/arjuna_auction/arjuna_auction.egg-info
+writing ../../build/arjuna_auction/arjuna_auction.egg-info/PKG-INFO
+writing dependency_links to ../../build/arjuna_auction/arjuna_auction.egg-info/dependency_links.txt
+writing entry points to ../../build/arjuna_auction/arjuna_auction.egg-info/entry_points.txt
+writing requirements to ../../build/arjuna_auction/arjuna_auction.egg-info/requires.txt
+writing top-level names to ../../build/arjuna_auction/arjuna_auction.egg-info/top_level.txt
+writing manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+reading manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+writing manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+copying arjuna_auction/heartbeat_monitor.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+copying arjuna_auction/train_bid_model.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+copying arjuna_auction/__init__.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+copying arjuna_auction/auction_node.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+running install
+running install_lib
+creating /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/heartbeat_monitor.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/train_bid_model.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/__init__.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/auction_node.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/heartbeat_monitor.py to heartbeat_monitor.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/train_bid_model.py to train_bid_model.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/auction_node.py to auction_node.cpython-310.pyc
+running install_data
+creating /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/share/ament_index/resource_index/packages
+copying resource/arjuna_auction -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/share/ament_index/resource_index/packages
+copying package.xml -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/share/arjuna_auction
+running install_egg_info
+Copying ../../build/arjuna_auction/arjuna_auction.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info
+running install_scripts
+Installing auction_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+Installing heartbeat_monitor script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log'

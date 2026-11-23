@@ -1,0 +1,288 @@
+[0.289s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arjuna_main', '--symlink-install'][0m
+[0.289s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arjuna_main'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff891e88e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff891b3b20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff891b3b20>>)[0m
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.397s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.397s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.397s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.398s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.398s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/arjuna/Arjuna_ws_team3'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'ignore'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'ignore_ament_install'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['colcon_pkg']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'colcon_pkg'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['colcon_meta']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'colcon_meta'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['ros']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'ros'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['cmake', 'python']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'cmake'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'python'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extensions ['python_setup_py']
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(archive) by extension 'python_setup_py'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore_ament_install'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_pkg']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_pkg'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_meta']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_meta'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ros']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ros'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['cmake', 'python']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'cmake'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['python_setup_py']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python_setup_py'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'ignore'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'ignore_ament_install'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['colcon_pkg']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'colcon_pkg'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['colcon_meta']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'colcon_meta'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['ros']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'ros'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['cmake', 'python']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'cmake'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'python'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extensions ['python_setup_py']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs/frames) by extension 'python_setup_py'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ignore'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ignore_ament_install'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['colcon_pkg']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'colcon_pkg'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['colcon_meta']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'colcon_meta'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['ros']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ros'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['cmake', 'python']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'cmake'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'python'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['python_setup_py']
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'python_setup_py'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'ignore'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'ignore_ament_install'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['colcon_pkg']
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'colcon_pkg'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['colcon_meta']
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'colcon_meta'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['ros']
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'ros'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['cmake', 'python']
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'cmake'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'python'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extensions ['python_setup_py']
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts/__pycache__) by extension 'python_setup_py'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extension 'ignore'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extension 'ignore_ament_install'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extensions ['colcon_pkg']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extension 'colcon_pkg'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extensions ['colcon_meta']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extension 'colcon_meta'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extensions ['ros']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_auction) by extension 'ros'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_auction' with type 'ros.ament_python' and name 'arjuna_auction'[0m
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extension 'ignore'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extension 'ignore_ament_install'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extensions ['colcon_pkg']
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extension 'colcon_pkg'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extensions ['colcon_meta']
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extension 'colcon_meta'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extensions ['ros']
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_baseline) by extension 'ros'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_baseline' with type 'ros.ament_python' and name 'arjuna_baseline'[0m
+[0.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extension 'ignore'
+[0.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extension 'ignore_ament_install'
+[0.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extensions ['colcon_pkg']
+[0.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extension 'colcon_pkg'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extensions ['colcon_meta']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extension 'colcon_meta'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extensions ['ros']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_camera) by extension 'ros'
+[0.465s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_camera' with type 'ros.ament_cmake' and name 'arjuna_camera'[0m
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extension 'ignore'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extension 'ignore_ament_install'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extensions ['colcon_pkg']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extension 'colcon_pkg'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extensions ['colcon_meta']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extension 'colcon_meta'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extensions ['ros']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_controller) by extension 'ros'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_controller' with type 'ros.ament_python' and name 'arjuna_controller'[0m
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extension 'ignore'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extension 'ignore_ament_install'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extensions ['colcon_pkg']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extension 'colcon_pkg'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extensions ['colcon_meta']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extension 'colcon_meta'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extensions ['ros']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_main) by extension 'ros'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_main' with type 'ros.ament_python' and name 'arjuna_main'[0m
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extension 'ignore'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extension 'ignore_ament_install'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extensions ['colcon_pkg']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extension 'colcon_pkg'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extensions ['colcon_meta']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extension 'colcon_meta'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extensions ['ros']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arjuna_odometry) by extension 'ros'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arjuna_odometry' with type 'ros.ament_cmake' and name 'arjuna_odometry'[0m
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extension 'ignore'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extension 'ignore_ament_install'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extensions ['colcon_pkg']
+[0.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extension 'colcon_pkg'
+[0.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extensions ['colcon_meta']
+[0.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extension 'colcon_meta'
+[0.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extensions ['ros']
+[0.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/motor_controller) by extension 'ros'
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/motor_controller' with type 'ros.ament_python' and name 'motor_controller'[0m
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extension 'ignore'
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extension 'ignore_ament_install'
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extensions ['colcon_pkg']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extension 'colcon_pkg'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extensions ['colcon_meta']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extension 'colcon_meta'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extensions ['ros']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros-imu-bno055) by extension 'ros'
+[0.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros-imu-bno055' with type 'ros.ament_cmake' and name 'imu_bno055'[0m
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ignore'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['ros']
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ros'
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'[0m
+[0.490s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.490s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.490s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.490s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.490s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arjuna_auction' in 'src/arjuna_auction'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arjuna_baseline' in 'src/arjuna_baseline'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arjuna_camera' in 'src/arjuna_camera'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arjuna_controller' in 'src/arjuna_controller'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arjuna_odometry' in 'src/arjuna_odometry'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'imu_bno055' in 'src/ros-imu-bno055'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'motor_controller' in 'src/motor_controller'
+[0.532s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'sllidar_ros2' in 'src/sllidar_ros2'
+[0.533s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.533s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.538s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/arjuna/Arjuna_ws_team3/install[0m
+[0.542s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 330 installed packages in /opt/ros/humble[0m
+[0.547s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.648s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_args' from command line to 'None'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_target' from command line to 'None'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arjuna_main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arjuna_main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjuna/Arjuna_ws_team3/build/arjuna_main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjuna/Arjuna_ws_team3/install/arjuna_main', 'merge_install': False, 'path': '/home/arjuna/Arjuna_ws_team3/src/arjuna_main', 'symlink_install': True, 'test_result_base': None}[0m
+[0.650s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.653s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.653s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main' with build type 'ament_python'
+[0.654s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arjuna_main', 'ament_prefix_path')
+[0.660s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/ament_prefix_path.ps1'
+[0.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/ament_prefix_path.dsv'
+[0.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/ament_prefix_path.sh'
+[0.665s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.226s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main'
+[1.227s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.227s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.247s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools commands: easy_install, setopt, install_scripts, install_headers, install_data, build_scripts, saveopts, symlink_data, install, check, build_clib, clean, alias, install_lib, install_egg_info, bdist_rpm, bdist, build_ext, rotate, bdist_wheel, build_py, bdist_dumb, bdist_egg, sdist, develop, egg_info, dist_info, build, editable_wheel[0m
+[2.927s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools 'develop' options: --no-deps, --quiet, --index-url, --help, --install-dir, --prefix, --no-user-cfg, --user, --verbose[0m
+[2.928s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m No '--editable' capability in setuptools, falling back to full install
+[2.932s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main': AMENT_PREFIX_PATH=/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/motor_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_main build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log --install-scripts $base/lib/arjuna_main --single-version-externally-managed install_data[0m
+[4.033s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main' returned '0': AMENT_PREFIX_PATH=/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/motor_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_main build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log --install-scripts $base/lib/arjuna_main --single-version-externally-managed install_data[0m
+[4.042s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main' for CMake module files
+[4.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main' for CMake config files
+[4.050s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib'
+[4.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/bin'
+[4.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/pkgconfig/arjuna_main.pc'
+[4.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages'
+[4.052s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arjuna_main', 'pythonpath')
+[4.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/pythonpath.ps1'
+[4.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/pythonpath.dsv'
+[4.056s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/hook/pythonpath.sh'
+[4.057s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/bin'
+[4.058s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arjuna_main)
+[4.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/package.ps1'
+[4.065s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/package.dsv'
+[4.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/package.sh'
+[4.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/package.bash'
+[4.073s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/package.zsh'
+[4.074s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/colcon-core/packages/arjuna_main)
+[4.075s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[4.076s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[4.077s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[4.077s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.102s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.103s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.103s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[4.141s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[4.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/arjuna/Arjuna_ws_team3/install/local_setup.ps1'
+[4.146s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/arjuna/Arjuna_ws_team3/install/_local_setup_util_ps1.py'
+[4.150s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/arjuna/Arjuna_ws_team3/install/setup.ps1'
+[4.154s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/arjuna/Arjuna_ws_team3/install/local_setup.sh'
+[4.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/arjuna/Arjuna_ws_team3/install/_local_setup_util_sh.py'
+[4.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/arjuna/Arjuna_ws_team3/install/setup.sh'
+[4.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/arjuna/Arjuna_ws_team3/install/local_setup.bash'
+[4.166s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/arjuna/Arjuna_ws_team3/install/setup.bash'
+[4.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/arjuna/Arjuna_ws_team3/install/local_setup.zsh'
+[4.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/arjuna/Arjuna_ws_team3/install/setup.zsh'

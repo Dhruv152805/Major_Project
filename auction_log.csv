@@ -1,0 +1,25 @@
+timestamp,task_id,observing_robot_id,my_bid,all_bids_json,winner,is_reauction,planner_id,task_x,task_y,nav_success,nav_duration_s,mode,distance_traveled_m,avg_speed_mps
+1792664737.3181503,T04,arjuna_2,3.334387164622126,"{""arjuna_2"": 3.334}",arjuna_2,False,GridBased,2.5,3.2,,,decentralized,,
+1792664738.7338526,T04,arjuna_2,,,arjuna_2,,GridBased,,,True,1.409,decentralized,0.032,0.023
+1793252679.6087985,T02,arjuna_2,4.0208150148258825,"{""arjuna_2"": 4.021, ""arjuna_1"": 1003.543}",arjuna_2,False,GridBased,3.81,-0.52,,,decentralized,,
+1793252781.4291406,T02,arjuna_2,,,arjuna_2,,GridBased,,,True,101.812,decentralized,0.0,0.0
+1793252783.6168122,T03,arjuna_2,3.8436818466759983,"{""arjuna_2"": 3.844, ""arjuna_1"": 1006.498}",arjuna_2,False,GridBased,0.03,-1.86,,,decentralized,,
+1793252832.2337747,T03,arjuna_2,,,arjuna_2,,GridBased,,,False,48.605,decentralized,0.0,0.0
+1793252834.2944844,T03,arjuna_2,5.957499522028852,"{""arjuna_2"": 5.957, ""arjuna_1"": 1007.603}",arjuna_2,False,GridBased,0.03,-1.86,,,decentralized,,
+1793252868.3067033,T03,arjuna_2,,,arjuna_2,,GridBased,,,False,34.007,decentralized,0.0,0.0
+1793252869.211859,T04,arjuna_2,1006.0843047390217,"{""arjuna_2"": 1006.084, ""arjuna_1"": 3.727}",arjuna_1,False,GridBased,2.5,3.2,,,decentralized,,
+1793252871.8291523,T05,arjuna_2,9.454842438515243,"{""arjuna_2"": 9.455, ""arjuna_1"": 1004.326}",arjuna_2,False,GridBased,-1.2,1.5,,,decentralized,,
+1793252906.2418337,T05,arjuna_2,,,arjuna_2,,GridBased,,,False,34.407,decentralized,0.0,0.0
+1793252908.2596755,T05,arjuna_2,11.454842438515243,"{""arjuna_2"": 11.455, ""arjuna_1"": 1003.565}",arjuna_2,False,GridBased,-1.2,1.5,,,decentralized,,
+1793252942.269481,T05,arjuna_2,,,arjuna_2,,GridBased,,,False,34.004,decentralized,0.0,0.0
+1793252944.3727844,T06,arjuna_2,10.462050291341292,"{""arjuna_2"": 10.462, ""arjuna_1"": 1006.139}",arjuna_2,False,GridBased,1.8,-2.1,,,decentralized,,
+1793252979.183548,T06,arjuna_2,,,arjuna_2,,GridBased,,,False,34.804,decentralized,0.0,0.0
+1793252981.221954,T06,arjuna_2,12.462050291341292,"{""arjuna_2"": 12.462, ""arjuna_1"": 1007.859}",arjuna_2,False,GridBased,1.8,-2.1,,,decentralized,,
+1793253015.2353249,T06,arjuna_2,,,arjuna_2,,GridBased,,,False,34.007,decentralized,0.0,0.0
+1793254771.6641257,T01,arjuna_2,4.877183144880553,"{""arjuna_2"": 4.877, ""arjuna_1"": 4.531}",arjuna_1,False,GridBased,-0.45,5.82,,,decentralized,,
+1793254774.2662683,T02,arjuna_2,4.054230423673415,"{""arjuna_2"": 4.054, ""arjuna_1"": 1003.55}",arjuna_2,False,GridBased,3.81,-0.52,,,decentralized,,
+1793254878.682876,T02,arjuna_2,,,arjuna_2,,GridBased,,,True,104.41,decentralized,0.0,0.0
+1793254880.820066,T03,arjuna_2,3.969754294030312,"{""arjuna_2"": 3.97, ""arjuna_1"": 1005.849}",arjuna_2,False,GridBased,0.03,-1.86,,,decentralized,,
+1793254905.433907,T01,arjuna_2,1007.414663167154,"{""arjuna_2"": 1007.415}",arjuna_2,True,GridBased,-0.45,5.82,,,decentralized,,
+1793255065.2481112,T03,arjuna_2,,,arjuna_2,,GridBased,,,False,184.417,decentralized,0.0,0.0
+1793255065.2827592,T01,arjuna_2,,,arjuna_2,,GridBased,,,False,0.02,decentralized,0.0,0.0

@@ -1,0 +1,40 @@
+[3.144s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main': AMENT_PREFIX_PATH=/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/motor_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_main build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log --install-scripts $base/lib/arjuna_main --single-version-externally-managed install_data
+[3.881s] running egg_info
+[3.924s] writing ../../build/arjuna_main/arjuna_main.egg-info/PKG-INFO
+[3.925s] writing dependency_links to ../../build/arjuna_main/arjuna_main.egg-info/dependency_links.txt
+[3.926s] writing entry points to ../../build/arjuna_main/arjuna_main.egg-info/entry_points.txt
+[3.927s] writing requirements to ../../build/arjuna_main/arjuna_main.egg-info/requires.txt
+[3.927s] writing top-level names to ../../build/arjuna_main/arjuna_main.egg-info/top_level.txt
+[4.035s] reading manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'
+[4.041s] writing manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'
+[4.041s] running build
+[4.042s] running build_py
+[4.044s] copying arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib
+[4.045s] copying arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib
+[4.047s] copying arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation
+[4.051s] running install
+[4.063s] running install_lib
+[4.110s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib
+[4.111s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib
+[4.113s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation
+[4.115s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py to Newrro_obs_script.cpython-310.pyc
+[4.118s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py to Newrro_Navigation.cpython-310.pyc
+[4.120s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py to Arjuna_obstacle_avoidance.cpython-310.pyc
+[4.124s] running install_data
+[4.126s] copying arjuna_main/config/nav2_params.yaml -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+[4.128s] running install_egg_info
+[4.176s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info' (and everything under it)
+[4.178s] Copying ../../build/arjuna_main/arjuna_main.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info
+[4.181s] running install_scripts
+[4.279s] Installing QR_CT script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.279s] Installing QR_Recog script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.280s] Installing QR_Tracking script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.280s] Installing arjuna_terminal_goal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.280s] Installing camera_pub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.281s] Installing camera_sub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.281s] Installing data_code script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.285s] Installing fleet_dashboard script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.286s] Installing go_to_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.286s] Installing multi_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+[4.286s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log'
+[4.372s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_main' returned '0': AMENT_PREFIX_PATH=/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/motor_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_main build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log --install-scripts $base/lib/arjuna_main --single-version-externally-managed install_data

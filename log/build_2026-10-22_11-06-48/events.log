@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (-) JobUnselected: {'identifier': 'arjuna_auction'}
+[0.000578] (-) JobUnselected: {'identifier': 'arjuna_baseline'}
+[0.001261] (-) JobUnselected: {'identifier': 'arjuna_camera'}
+[0.001758] (-) JobUnselected: {'identifier': 'arjuna_controller'}
+[0.001848] (-) JobUnselected: {'identifier': 'arjuna_odometry'}
+[0.001911] (-) JobUnselected: {'identifier': 'imu_bno055'}
+[0.001960] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.002004] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002055] (arjuna_main) JobQueued: {'identifier': 'arjuna_main', 'dependencies': OrderedDict([('arjuna_odometry', '/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry'), ('imu_bno055', '/home/arjuna/Arjuna_ws_team3/install/imu_bno055'), ('motor_controller', '/home/arjuna/Arjuna_ws_team3/install/motor_controller'), ('sllidar_ros2', '/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2')])}
+[0.002132] (arjuna_main) JobStarted: {'identifier': 'arjuna_main'}
+[0.076654] (-) TimerEvent: {}
+[0.177418] (-) TimerEvent: {}
+[0.278139] (-) TimerEvent: {}
+[0.378835] (-) TimerEvent: {}
+[0.479495] (-) TimerEvent: {}
+[0.580223] (-) TimerEvent: {}
+[0.681446] (-) TimerEvent: {}
+[0.782209] (-) TimerEvent: {}
+[0.884801] (-) TimerEvent: {}
+[0.987621] (-) TimerEvent: {}
+[1.089991] (-) TimerEvent: {}
+[1.193438] (-) TimerEvent: {}
+[1.297307] (-) TimerEvent: {}
+[1.398034] (-) TimerEvent: {}
+[1.502681] (-) TimerEvent: {}
+[1.603442] (-) TimerEvent: {}
+[1.704409] (-) TimerEvent: {}
+[1.805399] (-) TimerEvent: {}
+[1.906148] (-) TimerEvent: {}
+[2.010022] (-) TimerEvent: {}
+[2.113461] (-) TimerEvent: {}
+[2.215845] (-) TimerEvent: {}
+[2.322913] (-) TimerEvent: {}
+[2.427475] (-) TimerEvent: {}
+[2.530150] (-) TimerEvent: {}
+[2.632360] (-) TimerEvent: {}
+[2.733385] (-) TimerEvent: {}
+[2.834185] (-) TimerEvent: {}
+[2.934878] (-) TimerEvent: {}
+[3.035551] (-) TimerEvent: {}
+[3.136184] (-) TimerEvent: {}
+[3.144104] (arjuna_main) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arjuna_main', 'build', '--build-base', '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/build', 'install', '--record', '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log', '--install-scripts', '$base/lib/arjuna_main', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arjuna/Arjuna_ws_team3/src/arjuna_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arjuna/Antigravity IDE'), ('USER', 'arjuna'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"0264747f-6db9-4e78-bc2d-e9af30375230","stepIndex":355,"toolCall":{"id":"call_370504","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"colcon build --symlink-install --packages-select arjuna_main\\",\\"Cwd\\":\\"/home/arjuna/Arjuna_ws_team3\\",\\"WaitMsBeforeAsync\\":10000,\\"toolAction\\":\\"Rebuilding arjuna_main on Robot 2\\",\\"toolSummary\\":\\"Build arjuna_main on Robot 2\\"}","thinkingSignature":"EqEBCp4BAWkUfRPVh+R3JH8/yr4trTATc6D1HyiNVpvkBCvlS8NcU1rwoLz59ZCbI9BbWZ3Ii9F3rSVJ0papb0/cplAYEj2r0GKXUkFUS4JFiJaHqYrpxXZRy18l2kC/ikdtQCTWakR45AvBAxQ33cZ0Hhq8TnYc6mMtDd1Jz7R9ncyjupxE1WWutkZDVWpa4pwUaaw6X4rBvq5LBLhmarP8apE=","originalName":"run_command"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/home/arjuna/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('ANTIGRAVITY_AGENTAPI_EXE', '/home/arjuna/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_arm'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/arjuna'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-85489418-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2141'), ('ANTIGRAVITY_SAFECLIS_SOURCE', '/home/arjuna/.gemini/antigravity-ide/bin/safeclis/src'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7caeb7fe102a76b80b4b9a3a6ad1de83'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3152'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/arjuna/Arjuna_ws_team3/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arjuna'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:44515'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arjuna'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_LS_VERSION', 'ide-2.4.5'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/home/arjuna/Antigravity IDE/resources/app'), ('PATH', '/home/arjuna/.gemini/antigravity-ide/bin:/home/arjuna/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/arjuna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2298,unix/ubuntu:/tmp/.ICE-unix/2298'), ('INVOCATION_ID', 'fc7694ccd2fa4e72a19a37b6362b4c9f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTIGRAVITY_CONVERSATION_ID', '0264747f-6db9-4e78-bc2d-e9af30375230'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '44'), ('AMENT_PREFIX_PATH', '/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:45479'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '614b3f44-d101-4667-9a5c-05718b5fe5a3'), ('PWD', '/home/arjuna/Arjuna_ws_team3/build/arjuna_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arjuna/.config/Antigravity IDE/CachedData/ecfbad74d93962fc8ca485d93ab9b4f3d4cb6cf8'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7caeb7fe102a76b80b4b9a3a6ad1de83'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/motor_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', '59b424c8-9324-44a9-a2b0-9c73af80a92b'), ('CMAKE_PREFIX_PATH', '/home/arjuna/Arjuna_ws_team3/install/sllidar_ros2:/home/arjuna/Arjuna_ws_team3/install/imu_bno055:/home/arjuna/Arjuna_ws_team3/install/arjuna_odometry:/home/arjuna/Arjuna_ws_team3/install/arjuna_camera'), ('VSCODE_PID', '3152')]), 'shell': False}
+[3.236347] (-) TimerEvent: {}
+[3.337013] (-) TimerEvent: {}
+[3.440859] (-) TimerEvent: {}
+[3.544171] (-) TimerEvent: {}
+[3.646259] (-) TimerEvent: {}
+[3.747006] (-) TimerEvent: {}
+[3.848093] (-) TimerEvent: {}
+[3.882396] (arjuna_main) StdoutLine: {'line': b'running egg_info\n'}
+[3.925924] (arjuna_main) StdoutLine: {'line': b'writing ../../build/arjuna_main/arjuna_main.egg-info/PKG-INFO\n'}
+[3.927247] (arjuna_main) StdoutLine: {'line': b'writing dependency_links to ../../build/arjuna_main/arjuna_main.egg-info/dependency_links.txt\n'}
+[3.927904] (arjuna_main) StdoutLine: {'line': b'writing entry points to ../../build/arjuna_main/arjuna_main.egg-info/entry_points.txt\n'}
+[3.928558] (arjuna_main) StdoutLine: {'line': b'writing requirements to ../../build/arjuna_main/arjuna_main.egg-info/requires.txt\n'}
+[3.929224] (arjuna_main) StdoutLine: {'line': b'writing top-level names to ../../build/arjuna_main/arjuna_main.egg-info/top_level.txt\n'}
+[3.948733] (-) TimerEvent: {}
+[4.037089] (arjuna_main) StdoutLine: {'line': b"reading manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'\n"}
+[4.042456] (arjuna_main) StdoutLine: {'line': b"writing manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'\n"}
+[4.043199] (arjuna_main) StdoutLine: {'line': b'running build\n'}
+[4.043533] (arjuna_main) StdoutLine: {'line': b'running build_py\n'}
+[4.045708] (arjuna_main) StdoutLine: {'line': b'copying arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib\n'}
+[4.046562] (arjuna_main) StdoutLine: {'line': b'copying arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib\n'}
+[4.048586] (arjuna_main) StdoutLine: {'line': b'copying arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation\n'}
+[4.048906] (-) TimerEvent: {}
+[4.052445] (arjuna_main) StdoutLine: {'line': b'running install\n'}
+[4.064313] (arjuna_main) StdoutLine: {'line': b'running install_lib\n'}
+[4.111399] (arjuna_main) StdoutLine: {'line': b'copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib\n'}
+[4.113282] (arjuna_main) StdoutLine: {'line': b'copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib\n'}
+[4.114865] (arjuna_main) StdoutLine: {'line': b'copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation\n'}
+[4.117205] (arjuna_main) StdoutLine: {'line': b'byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py to Newrro_obs_script.cpython-310.pyc\n'}
+[4.119928] (arjuna_main) StdoutLine: {'line': b'byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py to Newrro_Navigation.cpython-310.pyc\n'}
+[4.122353] (arjuna_main) StdoutLine: {'line': b'byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/Arjuna_obstacle_avoidance.py to Arjuna_obstacle_avoidance.cpython-310.pyc\n'}
+[4.125912] (arjuna_main) StdoutLine: {'line': b'running install_data\n'}
+[4.127658] (arjuna_main) StdoutLine: {'line': b'copying arjuna_main/config/nav2_params.yaml -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config\n'}
+[4.129409] (arjuna_main) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.149087] (-) TimerEvent: {}
+[4.178181] (arjuna_main) StdoutLine: {'line': b"removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.179854] (arjuna_main) StdoutLine: {'line': b'Copying ../../build/arjuna_main/arjuna_main.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info\n'}
+[4.182895] (arjuna_main) StdoutLine: {'line': b'running install_scripts\n'}
+[4.249264] (-) TimerEvent: {}
+[4.280976] (arjuna_main) StdoutLine: {'line': b'Installing QR_CT script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.281468] (arjuna_main) StdoutLine: {'line': b'Installing QR_Recog script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.282155] (arjuna_main) StdoutLine: {'line': b'Installing QR_Tracking script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.282362] (arjuna_main) StdoutLine: {'line': b'Installing arjuna_terminal_goal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.282527] (arjuna_main) StdoutLine: {'line': b'Installing camera_pub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.282678] (arjuna_main) StdoutLine: {'line': b'Installing camera_sub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.282829] (arjuna_main) StdoutLine: {'line': b'Installing data_code script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.287170] (arjuna_main) StdoutLine: {'line': b'Installing fleet_dashboard script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.287630] (arjuna_main) StdoutLine: {'line': b'Installing go_to_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.287818] (arjuna_main) StdoutLine: {'line': b'Installing multi_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main\n'}
+[4.287977] (arjuna_main) StdoutLine: {'line': b"writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log'\n"}
+[4.349473] (-) TimerEvent: {}
+[4.372986] (arjuna_main) CommandEnded: {'returncode': 0}
+[4.407716] (arjuna_main) JobEnded: {'identifier': 'arjuna_main', 'rc': 0}
+[4.411069] (-) EventReactorShutdown: {}

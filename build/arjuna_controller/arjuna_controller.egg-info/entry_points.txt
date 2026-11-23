@@ -1,0 +1,3 @@
+[console_scripts]
+Arjuna_Controller = arjuna_controller.Arjuna_Controller:run_arjuna
+

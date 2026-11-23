@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arjuna_camera/srv/ListObjects.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module arjuna_camera {
+  module srv {
+    struct ListObjects_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListObjects_Response {
+      sequence<string> labels;
+
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+
+      boolean success;
+    };
+  };
+};

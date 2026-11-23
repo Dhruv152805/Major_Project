@@ -1,0 +1,10 @@
+[console_scripts]
+analyze_runs = arjuna_auction.analyze_runs:main
+auction_node = arjuna_auction.auction_node:main
+heartbeat_monitor = arjuna_auction.heartbeat_monitor:main
+record_points = arjuna_auction.record_points:main
+set_home_poses = arjuna_auction.set_home_poses:main
+task_injector = arjuna_auction.task_injector:main
+task_marker_node = arjuna_auction.task_marker_node:main
+train_bid_model = arjuna_auction.train_bid_model:main
+

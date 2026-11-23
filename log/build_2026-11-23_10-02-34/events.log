@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (arjuna_auction) JobQueued: {'identifier': 'arjuna_auction', 'dependencies': OrderedDict()}
+[0.000457] (arjuna_baseline) JobQueued: {'identifier': 'arjuna_baseline', 'dependencies': OrderedDict()}
+[0.000820] (arjuna_camera) JobQueued: {'identifier': 'arjuna_camera', 'dependencies': OrderedDict()}
+[0.000847] (arjuna_controller) JobQueued: {'identifier': 'arjuna_controller', 'dependencies': OrderedDict()}
+[0.000872] (arjuna_odometry) JobQueued: {'identifier': 'arjuna_odometry', 'dependencies': OrderedDict()}
+[0.000905] (imu_bno055) JobQueued: {'identifier': 'imu_bno055', 'dependencies': OrderedDict()}
+[0.000928] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.000952] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000970] (arjuna_main) JobQueued: {'identifier': 'arjuna_main', 'dependencies': OrderedDict([('arjuna_odometry', '/home/dhruv/Arjuna_ws_team3/install/arjuna_odometry'), ('imu_bno055', '/home/dhruv/Arjuna_ws_team3/install/imu_bno055'), ('motor_controller', '/home/dhruv/Arjuna_ws_team3/install/motor_controller'), ('sllidar_ros2', '/home/dhruv/Arjuna_ws_team3/install/sllidar_ros2')])}
+[0.001084] (arjuna_odometry) JobStarted: {'identifier': 'arjuna_odometry'}
+[0.004329] (imu_bno055) JobStarted: {'identifier': 'imu_bno055'}
+[0.006231] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.012400] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.013978] (arjuna_auction) JobStarted: {'identifier': 'arjuna_auction'}
+[0.017635] (arjuna_baseline) JobStarted: {'identifier': 'arjuna_baseline'}
+[0.020739] (arjuna_camera) JobStarted: {'identifier': 'arjuna_camera'}
+[0.022235] (arjuna_controller) JobStarted: {'identifier': 'arjuna_controller'}
+[0.039432] (arjuna_odometry) JobProgress: {'identifier': 'arjuna_odometry', 'progress': 'cmake'}
+[0.040377] (arjuna_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/dhruv/Arjuna_ws_team3/src/arjuna_odometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/arjuna_odometry'], 'cwd': '/home/dhruv/Arjuna_ws_team3/build/arjuna_odometry', 'env': OrderedDict([('JJ_PAGER', 'cat'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/dhruv/Antigravity IDE'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('NODE_EXTRA_CA_CERTS', '/etc/ssl/certs/ca-certificates.crt'), ('USER', 'dhruv'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"18f34753-0a92-4615-8bc3-70084667044d","stepIndex":19,"toolCall":{"id":"toolu_vrtx_01UzcKNoL2eEqt2WYiVwwNZ2","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/dhruv/Arjuna_ws_team3 \\\\u0026\\\\u0026 rm -rf build/ install/ \\\\u0026\\\\u0026 colcon build --symlink-install 2\\\\u003e\\\\u00261\\",\\"WaitMsBeforeAsync\\":120000,\\"toolSummary\\":\\"Clean and rebuild ROS2 workspace\\"}"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/dhruv/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('GIT_EDITOR', 'false'), ('ANTIGRAVITY_VSCODE_HOST', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('ANTIGRAVITY_AGENTAPI_EXE', '/home/dhruv/.gemini/bin/agy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruv'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('OLDPWD', '/home/dhruv/Arjuna_ws_team3'), ('ANTIGRAVITY_AUTH_SUCCESS_APP', 'antigravity-ide'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-4fde9984-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('JJ_EDITOR', 'false'), ('MANAGERPID', '1516'), ('SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1692'), ('IM_CONFIG_CHECK_ENV', '1'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9088'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruv'), ('JOURNAL_STREAM', '8:17624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruv'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_APP_DATA_DIR', '/home/dhruv/.gemini/antigravity'), ('ANTIGRAVITY_LS_VERSION', 'cli-2.34.0'), ('PATH', '/home/dhruv/.gemini/antigravity/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1692,unix/ubuntu:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', 'a85251a1b32c486e95803008867f14a0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GDK_BACKEND', 'wayland'), ('USERPROFILE', '/home/dhruv'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTIGRAVITY_CONVERSATION_ID', '18f34753-0a92-4615-8bc3-70084667044d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRTLZ3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ANTIGRAVITY_PROJECT_ID', 'eaa44eb5-705d-4ad9-ab4a-c71f42998b6e'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36959'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'bdd8aded-9eee-4d9b-bbac-0ba08b0d6425'), ('PWD', '/home/dhruv/Arjuna_ws_team3/build/arjuna_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/dhruv/.config/Antigravity IDE/CachedData/8dc5315afe097a21a6cb38dda76edc0835dfabfa'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8314950d06fe9b7c4c4affb6b03bc2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dhruv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('AGY_ENABLE_HUB', '1'), ('HGEDITOR', 'false'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', 'dbd9b77c-10f5-4e9e-8b09-b4650537f27e'), ('VSCODE_PID', '9088'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043433] (imu_bno055) JobProgress: {'identifier': 'imu_bno055', 'progress': 'cmake'}
+[0.044880] (imu_bno055) Command: {'cmd': ['/usr/bin/cmake', '/home/dhruv/Arjuna_ws_team3/src/ros-imu-bno055', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/imu_bno055'], 'cwd': '/home/dhruv/Arjuna_ws_team3/build/imu_bno055', 'env': OrderedDict([('JJ_PAGER', 'cat'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/dhruv/Antigravity IDE'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('NODE_EXTRA_CA_CERTS', '/etc/ssl/certs/ca-certificates.crt'), ('USER', 'dhruv'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"18f34753-0a92-4615-8bc3-70084667044d","stepIndex":19,"toolCall":{"id":"toolu_vrtx_01UzcKNoL2eEqt2WYiVwwNZ2","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/dhruv/Arjuna_ws_team3 \\\\u0026\\\\u0026 rm -rf build/ install/ \\\\u0026\\\\u0026 colcon build --symlink-install 2\\\\u003e\\\\u00261\\",\\"WaitMsBeforeAsync\\":120000,\\"toolSummary\\":\\"Clean and rebuild ROS2 workspace\\"}"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/dhruv/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('GIT_EDITOR', 'false'), ('ANTIGRAVITY_VSCODE_HOST', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('ANTIGRAVITY_AGENTAPI_EXE', '/home/dhruv/.gemini/bin/agy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruv'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('OLDPWD', '/home/dhruv/Arjuna_ws_team3'), ('ANTIGRAVITY_AUTH_SUCCESS_APP', 'antigravity-ide'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-4fde9984-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('JJ_EDITOR', 'false'), ('MANAGERPID', '1516'), ('SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1692'), ('IM_CONFIG_CHECK_ENV', '1'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9088'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruv'), ('JOURNAL_STREAM', '8:17624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruv'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_APP_DATA_DIR', '/home/dhruv/.gemini/antigravity'), ('ANTIGRAVITY_LS_VERSION', 'cli-2.34.0'), ('PATH', '/home/dhruv/.gemini/antigravity/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1692,unix/ubuntu:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', 'a85251a1b32c486e95803008867f14a0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GDK_BACKEND', 'wayland'), ('USERPROFILE', '/home/dhruv'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTIGRAVITY_CONVERSATION_ID', '18f34753-0a92-4615-8bc3-70084667044d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRTLZ3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ANTIGRAVITY_PROJECT_ID', 'eaa44eb5-705d-4ad9-ab4a-c71f42998b6e'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36959'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'bdd8aded-9eee-4d9b-bbac-0ba08b0d6425'), ('PWD', '/home/dhruv/Arjuna_ws_team3/build/imu_bno055'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/dhruv/.config/Antigravity IDE/CachedData/8dc5315afe097a21a6cb38dda76edc0835dfabfa'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8314950d06fe9b7c4c4affb6b03bc2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dhruv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('AGY_ENABLE_HUB', '1'), ('HGEDITOR', 'false'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', 'dbd9b77c-10f5-4e9e-8b09-b4650537f27e'), ('VSCODE_PID', '9088'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099816] (-) TimerEvent: {}
+[0.200260] (-) TimerEvent: {}
+[0.300659] (-) TimerEvent: {}
+[0.332159] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.333926] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/dhruv/Arjuna_ws_team3/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/sllidar_ros2'], 'cwd': '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2', 'env': OrderedDict([('JJ_PAGER', 'cat'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/dhruv/Antigravity IDE'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('NODE_EXTRA_CA_CERTS', '/etc/ssl/certs/ca-certificates.crt'), ('USER', 'dhruv'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"18f34753-0a92-4615-8bc3-70084667044d","stepIndex":19,"toolCall":{"id":"toolu_vrtx_01UzcKNoL2eEqt2WYiVwwNZ2","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/dhruv/Arjuna_ws_team3 \\\\u0026\\\\u0026 rm -rf build/ install/ \\\\u0026\\\\u0026 colcon build --symlink-install 2\\\\u003e\\\\u00261\\",\\"WaitMsBeforeAsync\\":120000,\\"toolSummary\\":\\"Clean and rebuild ROS2 workspace\\"}"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/dhruv/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('GIT_EDITOR', 'false'), ('ANTIGRAVITY_VSCODE_HOST', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('ANTIGRAVITY_AGENTAPI_EXE', '/home/dhruv/.gemini/bin/agy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruv'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('OLDPWD', '/home/dhruv/Arjuna_ws_team3'), ('ANTIGRAVITY_AUTH_SUCCESS_APP', 'antigravity-ide'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-4fde9984-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('JJ_EDITOR', 'false'), ('MANAGERPID', '1516'), ('SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1692'), ('IM_CONFIG_CHECK_ENV', '1'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9088'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruv'), ('JOURNAL_STREAM', '8:17624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruv'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_APP_DATA_DIR', '/home/dhruv/.gemini/antigravity'), ('ANTIGRAVITY_LS_VERSION', 'cli-2.34.0'), ('PATH', '/home/dhruv/.gemini/antigravity/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1692,unix/ubuntu:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', 'a85251a1b32c486e95803008867f14a0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GDK_BACKEND', 'wayland'), ('USERPROFILE', '/home/dhruv'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTIGRAVITY_CONVERSATION_ID', '18f34753-0a92-4615-8bc3-70084667044d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRTLZ3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ANTIGRAVITY_PROJECT_ID', 'eaa44eb5-705d-4ad9-ab4a-c71f42998b6e'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36959'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'bdd8aded-9eee-4d9b-bbac-0ba08b0d6425'), ('PWD', '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/dhruv/.config/Antigravity IDE/CachedData/8dc5315afe097a21a6cb38dda76edc0835dfabfa'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8314950d06fe9b7c4c4affb6b03bc2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dhruv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('AGY_ENABLE_HUB', '1'), ('HGEDITOR', 'false'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', 'dbd9b77c-10f5-4e9e-8b09-b4650537f27e'), ('VSCODE_PID', '9088'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400777] (-) TimerEvent: {}
+[0.501228] (-) TimerEvent: {}
+[0.601910] (-) TimerEvent: {}
+[0.702265] (-) TimerEvent: {}
+[0.802693] (-) TimerEvent: {}
+[0.903076] (-) TimerEvent: {}
+[0.935356] (arjuna_camera) JobProgress: {'identifier': 'arjuna_camera', 'progress': 'cmake'}
+[0.936199] (arjuna_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/dhruv/Arjuna_ws_team3/src/arjuna_camera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/arjuna_camera'], 'cwd': '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera', 'env': OrderedDict([('JJ_PAGER', 'cat'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/dhruv/Antigravity IDE'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('NODE_EXTRA_CA_CERTS', '/etc/ssl/certs/ca-certificates.crt'), ('USER', 'dhruv'), ('ANTIGRAVITY_SOURCE_METADATA', '{"tool":{"conversationId":"18f34753-0a92-4615-8bc3-70084667044d","stepIndex":19,"toolCall":{"id":"toolu_vrtx_01UzcKNoL2eEqt2WYiVwwNZ2","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/dhruv/Arjuna_ws_team3 \\\\u0026\\\\u0026 rm -rf build/ install/ \\\\u0026\\\\u0026 colcon build --symlink-install 2\\\\u003e\\\\u00261\\",\\"WaitMsBeforeAsync\\":120000,\\"toolSummary\\":\\"Clean and rebuild ROS2 workspace\\"}"}}}'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/home/dhruv/Antigravity IDE/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('GIT_EDITOR', 'false'), ('ANTIGRAVITY_VSCODE_HOST', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('ANTIGRAVITY_AGENTAPI_EXE', '/home/dhruv/.gemini/bin/agy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruv'), ('CHROME_DESKTOP', 'antigravity-ide.desktop'), ('OLDPWD', '/home/dhruv/Arjuna_ws_team3'), ('ANTIGRAVITY_AUTH_SUCCESS_APP', 'antigravity-ide'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-4fde9984-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('JJ_EDITOR', 'false'), ('MANAGERPID', '1516'), ('SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1692'), ('IM_CONFIG_CHECK_ENV', '1'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9088'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruv'), ('JOURNAL_STREAM', '8:17624'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruv'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTIGRAVITY_APP_DATA_DIR', '/home/dhruv/.gemini/antigravity'), ('ANTIGRAVITY_LS_VERSION', 'cli-2.34.0'), ('PATH', '/home/dhruv/.gemini/antigravity/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1692,unix/ubuntu:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', 'a85251a1b32c486e95803008867f14a0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GDK_BACKEND', 'wayland'), ('USERPROFILE', '/home/dhruv'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTIGRAVITY_CONVERSATION_ID', '18f34753-0a92-4615-8bc3-70084667044d'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRTLZ3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ANTIGRAVITY_PROJECT_ID', 'eaa44eb5-705d-4ad9-ab4a-c71f42998b6e'), ('SHELL', '/bin/bash'), ('ANTIGRAVITY_LS_ADDRESS', 'localhost:36959'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'bdd8aded-9eee-4d9b-bbac-0ba08b0d6425'), ('PWD', '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/dhruv/.config/Antigravity IDE/CachedData/8dc5315afe097a21a6cb38dda76edc0835dfabfa'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8314950d06fe9b7c4c4affb6b03bc2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dhruv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('AGY_ENABLE_HUB', '1'), ('HGEDITOR', 'false'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ANTIGRAVITY_CSRF_TOKEN', 'dbd9b77c-10f5-4e9e-8b09-b4650537f27e'), ('VSCODE_PID', '9088'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.003171] (-) TimerEvent: {}
+[1.103507] (-) TimerEvent: {}
+[1.152859] (arjuna_odometry) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.153482] (arjuna_odometry) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.153582] (arjuna_odometry) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.153632] (arjuna_odometry) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.153682] (arjuna_odometry) StderrLine: {'line': b'\n'}
+[1.153755] (arjuna_odometry) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.153804] (arjuna_odometry) StderrLine: {'line': b'  any of the following names:\n'}
+[1.153852] (arjuna_odometry) StderrLine: {'line': b'\n'}
+[1.153897] (arjuna_odometry) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.153941] (arjuna_odometry) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.154021] (arjuna_odometry) StderrLine: {'line': b'\n'}
+[1.155003] (arjuna_odometry) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.155290] (arjuna_odometry) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.155720] (arjuna_odometry) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.156061] (arjuna_odometry) StderrLine: {'line': b'  has been installed.\n'}
+[1.156142] (arjuna_odometry) StderrLine: {'line': b'\n'}
+[1.156267] (arjuna_odometry) StderrLine: {'line': b'\n'}
+[1.156351] (arjuna_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.156454] (arjuna_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.156531] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.156608] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.156683] (arjuna_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.156758] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.156830] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.156902] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.157275] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.157421] (arjuna_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.157867] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.157957] (arjuna_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.158022] (arjuna_odometry) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.158115] (arjuna_odometry) StdoutLine: {'line': b'See also "/home/dhruv/Arjuna_ws_team3/build/arjuna_odometry/CMakeFiles/CMakeOutput.log".\n'}
+[1.158172] (imu_bno055) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.158730] (imu_bno055) StderrLine: {'line': b'  By not providing "Findros_environment.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.158809] (imu_bno055) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.158874] (imu_bno055) StderrLine: {'line': b'  "ros_environment", but CMake did not find one.\n'}
+[1.158953] (imu_bno055) StderrLine: {'line': b'\n'}
+[1.159026] (imu_bno055) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros_environment"\n'}
+[1.159306] (imu_bno055) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.159362] (imu_bno055) StderrLine: {'line': b'\n'}
+[1.159414] (imu_bno055) StderrLine: {'line': b'    ros_environmentConfig.cmake\n'}
+[1.159463] (imu_bno055) StderrLine: {'line': b'    ros_environment-config.cmake\n'}
+[1.159512] (imu_bno055) StderrLine: {'line': b'\n'}
+[1.159606] (imu_bno055) StderrLine: {'line': b'  Add the installation prefix of "ros_environment" to CMAKE_PREFIX_PATH or\n'}
+[1.159655] (imu_bno055) StderrLine: {'line': b'  set "ros_environment_DIR" to a directory containing one of the above files.\n'}
+[1.159706] (imu_bno055) StderrLine: {'line': b'  If "ros_environment" provides a separate development package or SDK, be\n'}
+[1.159756] (imu_bno055) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.159803] (imu_bno055) StderrLine: {'line': b'\n'}
+[1.159850] (imu_bno055) StderrLine: {'line': b'\n'}
+[1.159899] (imu_bno055) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.160505] (imu_bno055) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.160586] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.160637] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.160687] (imu_bno055) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.160742] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.160797] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.160844] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.160891] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.160938] (imu_bno055) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.161000] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.161206] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.161310] (imu_bno055) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.161363] (imu_bno055) StdoutLine: {'line': b'See also "/home/dhruv/Arjuna_ws_team3/build/imu_bno055/CMakeFiles/CMakeOutput.log".\n'}
+[1.161414] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.161501] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.161562] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.161611] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.161656] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.161703] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.161749] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.161796] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.161841] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.162032] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.162391] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.162720] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.162793] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.162845] (sllidar_ros2) StdoutLine: {'line': b'See also "/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[1.162894] (arjuna_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.163139] (arjuna_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.163205] (arjuna_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.163258] (sllidar_ros2) StderrLine: {'line': b'CMake Error at CMakeLists.txt:34 (find_package):\n'}
+[1.163348] (sllidar_ros2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.163402] (sllidar_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.163455] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.163505] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[1.163560] (sllidar_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.163613] (sllidar_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[1.163683] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[1.163736] (sllidar_ros2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.163790] (sllidar_ros2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.163981] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[1.164043] (sllidar_ros2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.164100] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.164153] (sllidar_ros2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.164204] (sllidar_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[1.164258] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[1.164310] (sllidar_ros2) StderrLine: {'line': b'\n'}
+[1.164361] (arjuna_odometry) CommandEnded: {'returncode': 1}
+[1.165038] (imu_bno055) CommandEnded: {'returncode': 1}
+[1.165388] (sllidar_ros2) CommandEnded: {'returncode': 1}
+[1.202550] (arjuna_odometry) JobEnded: {'identifier': 'arjuna_odometry', 'rc': 1}
+[1.203863] (-) TimerEvent: {}
+[1.204060] (imu_bno055) JobEnded: {'identifier': 'imu_bno055', 'rc': 'SIGINT'}
+[1.204504] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 'SIGINT'}
+[1.227848] (arjuna_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.239926] (arjuna_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.240359] (arjuna_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.241083] (arjuna_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.248726] (arjuna_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.303972] (-) TimerEvent: {}
+[1.393126] (arjuna_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.403543] (arjuna_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.404002] (-) TimerEvent: {}
+[1.404181] (arjuna_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.405898] (arjuna_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.428135] (arjuna_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.428391] (arjuna_camera) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.428487] (arjuna_camera) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.428578] (arjuna_camera) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.428661] (arjuna_camera) StderrLine: {'line': b'\n'}
+[1.428745] (arjuna_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.428829] (arjuna_camera) StderrLine: {'line': b'  any of the following names:\n'}
+[1.428918] (arjuna_camera) StderrLine: {'line': b'\n'}
+[1.428995] (arjuna_camera) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.429087] (arjuna_camera) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.429144] (arjuna_camera) StderrLine: {'line': b'\n'}
+[1.429213] (arjuna_camera) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.429494] (arjuna_camera) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.429585] (arjuna_camera) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.429684] (arjuna_camera) StderrLine: {'line': b'  has been installed.\n'}
+[1.429780] (arjuna_camera) StderrLine: {'line': b'\n'}
+[1.429883] (arjuna_camera) StderrLine: {'line': b'\n'}
+[1.433246] (arjuna_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.433467] (arjuna_camera) StdoutLine: {'line': b'See also "/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/CMakeFiles/CMakeOutput.log".\n'}
+[1.434238] (arjuna_camera) JobEnded: {'identifier': 'arjuna_camera', 'rc': 'SIGINT'}
+[1.504086] (-) TimerEvent: {}
+[1.604551] (-) TimerEvent: {}
+[1.605322] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 'SIGINT'}
+[1.631128] (arjuna_auction) JobEnded: {'identifier': 'arjuna_auction', 'rc': 'SIGINT'}
+[1.632039] (arjuna_controller) JobEnded: {'identifier': 'arjuna_controller', 'rc': 'SIGINT'}
+[1.632765] (arjuna_baseline) JobEnded: {'identifier': 'arjuna_baseline', 'rc': 'SIGINT'}
+[1.643467] (arjuna_main) JobSkipped: {'identifier': 'arjuna_main'}
+[1.643553] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+# Python pip dependencies for Arjuna robot workspace
+pyserial
+depthai
+opencv-python
+pyzbar
+numpy

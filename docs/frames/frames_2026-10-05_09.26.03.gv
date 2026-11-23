@@ -1,0 +1,10 @@
+digraph G {
+"arjuna_1/base_link" -> "arjuna_1/imu"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"arjuna_1/base_footprint" -> "arjuna_1/base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"arjuna_1/base_link" -> "arjuna_1/laser"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"arjuna_1/odom" -> "arjuna_1/base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 30.198\nBuffer length: 4.967\nMost recent transform: 1791172563.387224\nOldest transform: 1791172558.42006\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1791172563.4153304"[ shape=plaintext ] ;
+}->"arjuna_1/odom";
+}

@@ -1,0 +1,24 @@
+[3.885s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data
+[4.394s] /home/arjuna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+[4.394s]   warnings.warn(msg)
+[4.672s] running egg_info
+[4.714s] writing ../../build/arjuna_auction/arjuna_auction.egg-info/PKG-INFO
+[4.715s] writing dependency_links to ../../build/arjuna_auction/arjuna_auction.egg-info/dependency_links.txt
+[4.716s] writing entry points to ../../build/arjuna_auction/arjuna_auction.egg-info/entry_points.txt
+[4.716s] writing requirements to ../../build/arjuna_auction/arjuna_auction.egg-info/requires.txt
+[4.717s] writing top-level names to ../../build/arjuna_auction/arjuna_auction.egg-info/top_level.txt
+[4.807s] reading manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[4.810s] writing manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[4.811s] running build
+[4.811s] running build_py
+[4.812s] running install
+[4.822s] running install_lib
+[4.869s] running install_data
+[4.870s] running install_egg_info
+[4.929s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info' (and everything under it)
+[4.930s] Copying ../../build/arjuna_auction/arjuna_auction.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info
+[4.932s] running install_scripts
+[5.023s] Installing auction_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.024s] Installing heartbeat_monitor script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.025s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log'
+[5.179s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction' returned '0': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data

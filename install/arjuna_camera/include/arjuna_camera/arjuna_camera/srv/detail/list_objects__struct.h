@@ -1,0 +1,1 @@
+/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_generator_c/arjuna_camera/srv/detail/list_objects__struct.h

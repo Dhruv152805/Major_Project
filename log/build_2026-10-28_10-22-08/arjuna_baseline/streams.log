@@ -1,0 +1,21 @@
+[3.978s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_baseline': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_baseline build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/install.log --install-scripts $base/lib/arjuna_baseline --single-version-externally-managed install_data
+[4.809s] running egg_info
+[4.849s] writing ../../build/arjuna_baseline/arjuna_baseline.egg-info/PKG-INFO
+[4.853s] writing dependency_links to ../../build/arjuna_baseline/arjuna_baseline.egg-info/dependency_links.txt
+[4.853s] writing entry points to ../../build/arjuna_baseline/arjuna_baseline.egg-info/entry_points.txt
+[4.853s] writing requirements to ../../build/arjuna_baseline/arjuna_baseline.egg-info/requires.txt
+[4.853s] writing top-level names to ../../build/arjuna_baseline/arjuna_baseline.egg-info/top_level.txt
+[4.945s] reading manifest file '../../build/arjuna_baseline/arjuna_baseline.egg-info/SOURCES.txt'
+[4.949s] writing manifest file '../../build/arjuna_baseline/arjuna_baseline.egg-info/SOURCES.txt'
+[4.949s] running build
+[4.949s] running build_py
+[4.953s] running install
+[4.961s] running install_lib
+[5.010s] running install_data
+[5.010s] running install_egg_info
+[5.058s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages/arjuna_baseline-0.0.1-py3.10.egg-info' (and everything under it)
+[5.059s] Copying ../../build/arjuna_baseline/arjuna_baseline.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages/arjuna_baseline-0.0.1-py3.10.egg-info
+[5.061s] running install_scripts
+[5.155s] Installing nearest_robot_controller script to /home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/arjuna_baseline
+[5.156s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/install.log'
+[5.741s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_baseline' returned '0': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_baseline build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_baseline/install.log --install-scripts $base/lib/arjuna_baseline --single-version-externally-managed install_data

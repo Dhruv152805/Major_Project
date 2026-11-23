@@ -1,0 +1,23 @@
+[2.899s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_controller': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_controller build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_controller/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_controller/install.log --install-scripts $base/lib/arjuna_controller --single-version-externally-managed install_data
+[3.819s] running egg_info
+[3.863s] writing ../../build/arjuna_controller/arjuna_controller.egg-info/PKG-INFO
+[3.864s] writing dependency_links to ../../build/arjuna_controller/arjuna_controller.egg-info/dependency_links.txt
+[3.877s] writing entry points to ../../build/arjuna_controller/arjuna_controller.egg-info/entry_points.txt
+[3.878s] writing requirements to ../../build/arjuna_controller/arjuna_controller.egg-info/requires.txt
+[3.878s] writing top-level names to ../../build/arjuna_controller/arjuna_controller.egg-info/top_level.txt
+[4.029s] reading manifest file '../../build/arjuna_controller/arjuna_controller.egg-info/SOURCES.txt'
+[4.033s] writing manifest file '../../build/arjuna_controller/arjuna_controller.egg-info/SOURCES.txt'
+[4.033s] running build
+[4.034s] running build_py
+[4.034s] running install
+[4.045s] running install_lib
+[4.098s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages/arjuna_controller/__init__.py to __init__.cpython-310.pyc
+[4.099s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages/arjuna_controller/Arjuna_Controller.py to Arjuna_Controller.cpython-310.pyc
+[4.103s] running install_data
+[4.103s] running install_egg_info
+[4.155s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages/arjuna_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.156s] Copying ../../build/arjuna_controller/arjuna_controller.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages/arjuna_controller-0.0.0-py3.10.egg-info
+[4.159s] running install_scripts
+[4.263s] Installing Arjuna_Controller script to /home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/arjuna_controller
+[4.268s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_controller/install.log'
+[4.437s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_controller' returned '0': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_controller build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_controller/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_controller/install.log --install-scripts $base/lib/arjuna_controller --single-version-externally-managed install_data

@@ -1,0 +1,50 @@
+running egg_info
+writing ../../build/arjuna_main/arjuna_main.egg-info/PKG-INFO
+writing dependency_links to ../../build/arjuna_main/arjuna_main.egg-info/dependency_links.txt
+writing entry points to ../../build/arjuna_main/arjuna_main.egg-info/entry_points.txt
+writing requirements to ../../build/arjuna_main/arjuna_main.egg-info/requires.txt
+writing top-level names to ../../build/arjuna_main/arjuna_main.egg-info/top_level.txt
+reading manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'
+writing manifest file '../../build/arjuna_main/arjuna_main.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib
+copying arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib
+copying arjuna_main/scripts/Arjuna_navigation/Arjuna_multi_point_terminal.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation
+copying arjuna_main/scripts/Arjuna_navigation/arjuna_terminal_goal.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation
+copying arjuna_main/scripts/Arjuna_navigation/Arjuna_go_to_point_terminal.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation
+copying arjuna_main/scripts/Arjuna_navigation/rviz_goal_bridge.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation
+running install
+running install_lib
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/Arjuna_multi_point_terminal.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/arjuna_terminal_goal.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/Arjuna_go_to_point_terminal.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation
+copying /home/arjuna/Arjuna_ws_team3/build/arjuna_main/build/lib/arjuna_main/scripts/Arjuna_navigation/rviz_goal_bridge.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_obs_script.py to Newrro_obs_script.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Newrro_NavLib/Newrro_Navigation.py to Newrro_Navigation.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/Arjuna_multi_point_terminal.py to Arjuna_multi_point_terminal.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/arjuna_terminal_goal.py to arjuna_terminal_goal.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/Arjuna_go_to_point_terminal.py to Arjuna_go_to_point_terminal.cpython-310.pyc
+byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main/scripts/Arjuna_navigation/rviz_goal_bridge.py to rviz_goal_bridge.cpython-310.pyc
+running install_data
+copying arjuna_main/launch/mapping_launch.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/launch
+copying arjuna_main/launch/bringup_launch.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/launch
+running install_egg_info
+removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/arjuna_main/arjuna_main.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna_main-2.0.0-py3.10.egg-info
+running install_scripts
+Installing QR_CT script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing QR_Recog script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing QR_Tracking script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing arjuna_terminal_goal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing camera_pub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing camera_sub script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing data_code script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing fleet_dashboard script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing go_to_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing multi_point_terminal script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing obstacle_avoidance script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing rviz_goal_bridge script to /home/arjuna/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_main/install.log'

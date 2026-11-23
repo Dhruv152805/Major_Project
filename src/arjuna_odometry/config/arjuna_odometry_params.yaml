@@ -1,0 +1,23 @@
+# Config file for arjuna_ekf_odom_pub node
+# Optimized for the new Arjuna robot platform
+
+arjuna_ekf_odom_pub:
+  ros__parameters:
+    # Robot physical parameters
+    wheel_radius: 0.04          # meters (80mm diameter rubber wheels)
+    wheel_base: 0.30            # meters (track width on the new Arjuna)
+    ticks_per_revolution: 4096.0 # STS Smart Servo 12-bit magnetic encoder resolution
+    tick_scaling: 2.5           # Divisor scaling factor (must match motor_driver configuration)
+    
+    # Frames config
+    odom_frame: "odom"
+    base_frame: "base_footprint"
+    publish_tf: false           # Set to false to avoid conflicting with robot_localization EKF
+    
+    # Initial pose
+    initial_x: 0.0
+    initial_y: 0.0
+    initial_theta: 0.0          # radians
+    
+    # Publishing rate (Hz)
+    publish_rate: 30.0

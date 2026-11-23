@@ -1,0 +1,561 @@
+[0.286s] Invoking command in '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/sllidar_ros2 -- -j8 -l8
+[0.924s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[4.280s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[4.281s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[4.281s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,
+[4.281s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/src/sllidar_node.cpp:38:
+[4.281s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[4.281s]    66 |     sl_u8 data[0];
+[4.281s]       |                ^
+[4.281s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[4.281s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,
+[4.281s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/src/sllidar_node.cpp:38:
+[4.281s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[4.281s]   324 |     sl_u8  payload[0];
+[4.281s]       |                    ^
+[7.599s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[7.996s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[7.996s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[7.996s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:
+[7.997s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[7.997s]    66 |     sl_u8 data[0];
+[7.997s]       |                ^
+[7.997s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[7.997s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:
+[7.998s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[7.998s]   324 |     sl_u8  payload[0];
+[7.998s]       |                    ^
+[8.155s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40:
+[8.156s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[8.156s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.156s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.156s]       |                                                ~~~~^~~~~~~
+[8.156s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[8.156s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.156s]       |                                                        ~~~~~^~~~~~~~~~
+[8.156s] 
+[8.156s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[8.156s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.157s]       |                                                 ~~~~~~~~~~~~^~~~
+[8.157s] 
+[8.157s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.157s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.157s]       |                                                         ~~~~~~~^~~~
+[8.157s] 
+[8.157s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[8.157s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[8.157s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.157s]       |                                      ~~~~^~~~~~
+[8.157s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.158s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.158s]       |                                                  ~~~~^~~~~~~
+[8.158s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[8.158s]    56 | l void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.158s]       |                                                 ~~~~~~~~~~~~^~~~~~~
+[8.158s] 
+[8.158s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.158s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.158s]       |                                                         ~~~~~~~^~~~
+[8.158s] 
+[8.282s] [ 15%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[8.651s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[8.652s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[8.652s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[8.652s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[8.652s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:
+[8.652s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[8.652s]    66 |     sl_u8 data[0];
+[8.652s]       |                ^
+[8.652s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[8.652s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[8.653s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[8.653s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[8.653s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:
+[8.653s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[8.653s]   324 |     sl_u8  payload[0];
+[8.653s]       |                    ^
+[8.804s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40:
+[8.804s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[8.804s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.804s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.804s]       |                                                ~~~~^~~~~~~
+[8.804s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[8.804s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.804s]       |                                                        ~~~~~^~~~~~~~~~
+[8.805s] 
+[8.805s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[8.805s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.805s]       |                                                 ~~~~~~~~~~~~^~~~
+[8.805s] 
+[8.805s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.805s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.805s]       |                                                         ~~~~~~~^~~~
+[8.805s] 
+[8.805s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[8.805s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[8.806s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.806s]       |                                      ~~~~^~~~~~
+[8.806s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.806s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.806s]       |                                                  ~~~~^~~~~~~
+[8.806s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[8.806s]    56 | l void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.806s]       |                                                 ~~~~~~~~~~~~^~~~~~~
+[8.806s] 
+[8.806s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.806s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.806s]       |                                                         ~~~~~~~^~~~
+[8.806s] 
+[8.932s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[9.373s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[9.373s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[9.373s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[9.373s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:
+[9.373s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[9.373s]    66 |     sl_u8 data[0];
+[9.373s]       |                ^
+[9.373s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[9.373s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[9.374s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[9.374s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:
+[9.374s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[9.374s]   324 |     sl_u8  payload[0];
+[9.374s]       |                    ^
+[9.413s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/hal/thread.cpp:43:
+[9.413s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function ‘static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)’:
+[9.413s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+[9.413s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);
+[9.413s]       |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+[9.413s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function ‘u_result rp::hal::Thread::join(long unsigned int)’:
+[9.414s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[9.414s]   176 | u_result Thread::join(unsigned long timeout)
+[9.414s]       |                       ~~~~~~~~~~~~~~^~~~~~~
+[9.495s] [ 25%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[9.924s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[9.925s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[9.925s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[9.928s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:
+[9.928s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[9.929s]    66 |     sl_u8 data[0];
+[9.929s]       |                ^
+[9.932s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[9.932s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[9.934s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[9.934s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:
+[9.934s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[9.934s]   324 |     sl_u8  payload[0];
+[9.934s]       |                    ^
+[10.109s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)’:
+[10.109s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[10.109s]    67 | lt RPlidarDriver::connect(const char *path, _u32 portOrBaud, _u32 flag)
+[10.109s]       |                                                              ~~~~~^~~~
+[10.109s] 
+[10.109s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)’:
+[10.110s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[10.110s]   101 |     u_result RPlidarDriver::reset(_u32 timeout)
+[10.110s]       |                                   ~~~~~^~~~~~~
+[10.110s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)’:
+[10.110s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91: warning: unused parameter ‘nodebuffer’ [-Wunused-parameter]
+[10.110s]   180 | tScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)
+[10.110s]       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[10.110s] 
+[10.110s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112: warning: unused parameter ‘count’ [-Wunused-parameter]
+[10.110s]   180 | erval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)
+[10.110s]       |                                                         ~~~~~~~~~^~~~~
+[10.110s] 
+[10.236s] [ 30%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[10.663s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[10.663s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[10.663s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[10.663s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:
+[10.663s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[10.664s]    66 |     sl_u8 data[0];
+[10.664s]       |                ^
+[10.664s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[10.664s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[10.664s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[10.664s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:
+[10.664s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[10.664s]   324 |     sl_u8  payload[0];
+[10.664s]       |                    ^
+[10.759s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44:
+[10.759s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[10.759s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[10.760s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[10.760s]       |                                       ~~~~~~~~~^~~~~~~
+[10.907s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[10.925s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[10.925s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_crc.h:36,
+[10.925s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:
+[10.925s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[10.925s]    66 |     sl_u8 data[0];
+[10.925s]       |                ^
+[10.925s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_crc.h:36,
+[10.925s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:
+[10.925s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[10.926s]   324 |     sl_u8  payload[0];
+[10.926s]       |                    ^
+[10.946s] [ 40%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[11.324s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:
+[11.325s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[11.325s]    66 |     sl_u8 data[0];
+[11.325s]       |                ^
+[11.325s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[11.325s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:
+[11.325s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[11.325s]   324 |     sl_u8  payload[0];
+[11.325s]       |                    ^
+[11.547s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50:
+[11.548s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[11.548s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[11.548s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[11.548s]       |                                                ~~~~^~~~~~~
+[11.548s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[11.548s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[11.548s]       |                                                        ~~~~~^~~~~~~~~~
+[11.548s] 
+[11.548s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[11.548s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[11.549s]       |                                                 ~~~~~~~~~~~~^~~~
+[11.549s] 
+[11.549s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[11.549s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[11.549s]       |                                                         ~~~~~~~^~~~
+[11.549s] 
+[11.549s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[11.549s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[11.549s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[11.549s]       |                                      ~~~~^~~~~~
+[11.549s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[11.550s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[11.550s]       |                                                  ~~~~^~~~~~~
+[11.550s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[11.550s]    56 | l void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[11.550s]       |                                                 ~~~~~~~~~~~~^~~~~~~
+[11.550s] 
+[11.550s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[11.550s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[11.550s]       |                                                         ~~~~~~~^~~~
+[11.550s] 
+[11.556s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51:
+[11.556s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[11.556s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[11.556s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[11.556s]       |                                       ~~~~~~~~~^~~~~~~
+[11.581s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)’:
+[11.581s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[11.581s]   511 |         sl_result reset(sl_u32 timeoutInMs = DEFAULT_TIMEOUT)
+[11.581s]       |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11.586s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)’:
+[11.586s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69: warning: unused parameter ‘options’ [-Wunused-parameter]
+[11.586s]   586 | sl_result startScan(bool force, bool useTypicalScan, sl_u32 options = 0, LidarScanMode* outUsedScanMode = nullptr)
+[11.586s]       |                                                      ~~~~~~~^~~~~~~~~~~
+[11.586s] 
+[11.588s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)’:
+[11.588s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[11.588s]   763 |         sl_result stop(sl_u32 timeout = DEFAULT_TIMEOUT)
+[11.588s]       |                        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[11.590s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)’:
+[11.590s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110: warning: unused parameter ‘nodes’ [-Wunused-parameter]
+[11.591s]   880 | e& scanMode, const sl_lidar_response_measurement_node_hq_t* nodes, size_t count, float& frequency)
+[11.591s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[11.591s] 
+[11.593s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)’:
+[11.593s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[11.593s]  1023 |    sl_result getMotorInfo(LidarMotorInfo &motorInfo, sl_u32 timeoutInMs)
+[11.594s]       |                                                      ~~~~~~~^~~~~~~~~~~
+[11.594s] 
+[11.595s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘u_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)’:
+[11.595s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[11.595s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, sl_u32 timeoutInMs = DEFAULT_TIMEOUT)
+[11.595s]       |                                                      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11.641s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘void sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int]’:
+[11.641s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:   required from here
+[11.641s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28: warning: unused parameter ‘timestamp_uS’ [-Wunused-parameter]
+[11.641s]   202 |         void pushNode(_u64 timestamp_uS, const T* node)
+[11.641s]       |                       ~~~~~^~~~~~~~~~~~
+[11.791s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: At global scope:
+[11.791s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17: warning: ‘void sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)’ defined but not used [-Wunused-function]
+[11.792s]    83 |     static void convert(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[11.792s]       |                 ^~~~~~~
+[11.792s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17: warning: ‘void sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)’ defined but not used [-Wunused-function]
+[11.792s]    75 |     static void convert(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[11.792s]       |                 ^~~~~~~
+[11.792s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17: warning: ‘void sl::printDeprecationWarn(const char*, const char*)’ defined but not used [-Wunused-function]
+[11.792s]    70 |     static void printDeprecationWarn(const char* fn, const char* replacement)
+[11.792s]       |                 ^~~~~~~~~~~~~~~~~~~~
+[12.297s] [ 45%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[12.697s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[12.697s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[12.697s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[12.697s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:
+[12.697s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[12.698s]    66 |     sl_u8 data[0];
+[12.698s]       |                ^
+[12.698s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[12.698s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[12.698s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[12.698s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:
+[12.698s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[12.698s]   324 |     sl_u8  payload[0];
+[12.698s]       |                    ^
+[12.914s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49:
+[12.914s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[12.914s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[12.914s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[12.914s]       |                                       ~~~~~~~~~^~~~~~~
+[13.026s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[13.256s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[13.256s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.256s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:
+[13.257s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[13.257s]    66 |     sl_u8 data[0];
+[13.257s]       |                ^
+[13.258s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.258s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:
+[13.258s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[13.258s]   324 |     sl_u8  payload[0];
+[13.258s]       |                    ^
+[13.315s] [ 55%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[13.575s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[13.575s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.575s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:
+[13.575s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[13.576s]    66 |     sl_u8 data[0];
+[13.576s]       |                ^
+[13.576s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.576s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:
+[13.576s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[13.576s]   324 |     sl_u8  payload[0];
+[13.576s]       |                    ^
+[13.580s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp: In member function ‘void sl::TcpChannel::setStatus(_u32)’:
+[13.581s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[13.581s]   109 |         void setStatus(_u32 flag){}
+[13.582s]       |                        ~~~~~^~~~
+[13.643s] [ 60%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[13.914s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[13.914s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.914s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:
+[13.914s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[13.914s]    66 |     sl_u8 data[0];
+[13.914s]       |                ^
+[13.914s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[13.914s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:
+[13.915s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[13.915s]   324 |     sl_u8  payload[0];
+[13.915s]       |                    ^
+[13.920s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp: In member function ‘void sl::UdpChannel::setStatus(_u32)’:
+[13.920s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[13.921s]   112 |         void setStatus(_u32 flag){}
+[13.921s]       |                        ~~~~~^~~~
+[13.987s] [ 65%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[14.502s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[14.502s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[14.502s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[14.502s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[14.502s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:
+[14.502s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[14.502s]    66 |     sl_u8 data[0];
+[14.502s]       |                ^
+[14.503s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[14.503s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[14.503s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[14.503s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[14.503s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:
+[14.503s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[14.503s]   324 |     sl_u8  payload[0];
+[14.503s]       |                    ^
+[14.701s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40:
+[14.701s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[14.701s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[14.701s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[14.701s]       |                                                ~~~~^~~~~~~
+[14.701s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[14.701s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[14.701s]       |                                                        ~~~~~^~~~~~~~~~
+[14.702s] 
+[14.702s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[14.702s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[14.702s]       |                                                 ~~~~~~~~~~~~^~~~
+[14.702s] 
+[14.702s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[14.702s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[14.702s]       |                                                         ~~~~~~~^~~~
+[14.703s] 
+[14.703s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[14.703s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[14.703s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[14.703s]       |                                      ~~~~^~~~~~
+[14.703s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[14.703s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[14.703s]       |                                                  ~~~~^~~~~~~
+[14.703s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[14.703s]    56 | l void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[14.704s]       |                                                 ~~~~~~~~~~~~^~~~~~~
+[14.704s] 
+[14.704s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[14.704s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[14.704s]       |                                                         ~~~~~~~^~~~
+[14.704s] 
+[14.714s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘void sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)’:
+[14.714s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+[14.714s]   763 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);
+[14.714s]       |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.917s] [ 70%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[15.379s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[15.379s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[15.379s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[15.379s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,
+[15.379s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:
+[15.379s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[15.379s]    66 |     sl_u8 data[0];
+[15.379s]       |                ^
+[15.380s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[15.380s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[15.380s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[15.380s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,
+[15.380s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:
+[15.380s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[15.380s]   324 |     sl_u8  payload[0];
+[15.380s]       |                    ^
+[15.565s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40:
+[15.566s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[15.566s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[15.566s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[15.566s]       |                                                ~~~~^~~~~~~
+[15.566s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[15.566s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[15.566s]       |                                                        ~~~~~^~~~~~~~~~
+[15.566s] 
+[15.566s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[15.566s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[15.566s]       |                                                 ~~~~~~~~~~~~^~~~
+[15.566s] 
+[15.566s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[15.566s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[15.567s]       |                                                         ~~~~~~~^~~~
+[15.567s] 
+[15.567s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[15.567s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[15.567s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[15.567s]       |                                      ~~~~^~~~~~
+[15.567s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[15.567s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[15.567s]       |                                                  ~~~~^~~~~~~
+[15.567s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[15.567s]    56 | l void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[15.567s]       |                                                 ~~~~~~~~~~~~^~~~~~~
+[15.567s] 
+[15.567s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[15.567s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[15.568s]       |                                                         ~~~~~~~^~~~
+[15.568s] 
+[15.821s] [ 75%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[16.279s] [ 80%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[16.624s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[16.624s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[16.624s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[16.624s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[16.624s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[16.624s]    66 |     sl_u8 data[0];
+[16.625s]       |                ^
+[16.625s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[16.625s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[16.625s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[16.625s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[16.625s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[16.625s]   324 |     sl_u8  payload[0];
+[16.625s]       |                    ^
+[16.675s] In file included from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,
+[16.676s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/./sdk/src/sdkcommon.h:41,
+[16.676s]                  from /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[16.676s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)’:
+[16.676s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+[16.676s]   733 |             assert(ans == len);
+[16.676s]       |                    ~~~~^~~~~~
+[16.836s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[17.266s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)’:
+[17.266s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter ‘flags’ [-Wunused-parameter]
+[17.266s]    97 | _serial::open(const char * portname, uint32_t baudrate, uint32_t flags)
+[17.266s]       |                                                         ~~~~~~~~~^~~~~
+[17.266s] 
+[17.266s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::flush(_u32)’:
+[17.267s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter ‘flags’ [-Wunused-parameter]
+[17.267s]   281 | void raw_serial::flush( _u32 flags)
+[17.267s]       |                         ~~~~~^~~~~
+[17.267s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)’:
+[17.267s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[17.267s]   286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)
+[17.267s]       |                             ~~~~~^~~~~~~
+[17.267s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)’:
+[17.267s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[17.267s]   292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)
+[17.267s]       |                             ~~~~~^~~~~~~
+[17.268s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::cancelOperation()’:
+[17.268s] /home/dhruv/Arjuna_ws_team3/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5: warning: value computed is not used [-Wunused-value]
+[17.268s]   427 |     (int)::write(_selfpipe[1], "x", 1);
+[17.268s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17.379s] [ 90%] [32m[1mLinking CXX executable sllidar_node[0m
+[17.723s] [ 90%] Built target sllidar_node
+[17.744s] [ 95%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[26.555s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[27.117s] [100%] Built target sllidar_client
+[27.135s] Invoked command in '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/sllidar_ros2 -- -j8 -l8
+[27.137s] Invoking command in '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/sllidar_ros2
+[27.147s] -- Install configuration: ""
+[27.149s] -- Execute custom install script
+[27.150s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[27.160s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[27.170s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[27.181s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[27.191s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[27.206s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[27.218s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[27.228s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[27.238s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[27.248s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[27.258s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[27.268s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[27.279s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[27.292s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[27.304s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[27.315s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[27.324s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[27.335s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[27.344s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[27.354s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[27.365s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[27.377s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[27.392s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[27.405s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[27.420s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[27.434s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[27.448s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[27.463s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[27.474s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[27.485s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[27.495s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[27.505s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[27.515s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[27.525s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[27.535s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[27.545s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[27.555s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[27.565s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[27.575s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[27.585s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.595s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.605s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[27.615s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[27.626s] -- Symlinking: /home/dhruv/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[27.639s] Invoked command in '/home/dhruv/Arjuna_ws_team3/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/sllidar_ros2

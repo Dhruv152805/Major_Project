@@ -1,0 +1,1 @@
+/home/dhruv/Arjuna_ws_team3/build/arjuna_camera/rosidl_generator_py/arjuna_camera/srv/_get_object_pose_s.c

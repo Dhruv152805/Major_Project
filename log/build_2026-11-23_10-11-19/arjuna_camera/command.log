@@ -1,0 +1,6 @@
+Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhruv/Arjuna_ws_team3/src/arjuna_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/arjuna_camera
+Invoked command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhruv/Arjuna_ws_team3/src/arjuna_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/arjuna_camera
+Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/arjuna_camera -- -j8 -l8
+Invoked command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/Arjuna_ws_team3/build/arjuna_camera -- -j8 -l8
+Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/arjuna_camera
+Invoked command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/Arjuna_ws_team3/build/arjuna_camera

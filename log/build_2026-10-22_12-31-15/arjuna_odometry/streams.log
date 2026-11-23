@@ -1,0 +1,28 @@
+[0.117s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_odometry -- -j6 -l6
+[1.237s] [ 50%] Built target arjuna_rviz_data_pub
+[1.240s] [100%] Built target arjuna_ekf_odom_pub
+[1.269s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_odometry -- -j6 -l6
+[1.275s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/arjuna_odometry
+[1.835s] -- Install configuration: ""
+[1.835s] -- Execute custom install script
+[1.835s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/lib/arjuna_odometry/arjuna_ekf_odom_pub
+[1.835s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/lib/arjuna_odometry/arjuna_rviz_data_pub
+[1.835s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/config/arjuna_odometry_params.yaml
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/config/ekf.yaml
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/launch/arjuna_odometry_launch.py
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/ament_index/resource_index/package_run_dependencies/arjuna_odometry
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/ament_index/resource_index/parent_prefix_path/arjuna_odometry
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/environment/ament_prefix_path.sh
+[1.836s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/environment/ament_prefix_path.dsv
+[1.837s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/environment/path.sh
+[1.837s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/environment/path.dsv
+[1.837s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/local_setup.bash
+[1.837s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/local_setup.sh
+[1.839s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/local_setup.zsh
+[1.841s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/local_setup.dsv
+[1.842s] -- Symlinking: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/package.dsv
+[1.842s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/ament_index/resource_index/packages/arjuna_odometry
+[1.842s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/cmake/arjuna_odometryConfig.cmake
+[1.843s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/cmake/arjuna_odometryConfig-version.cmake
+[1.844s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/arjuna_odometry/share/arjuna_odometry/package.xml
+[1.858s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/arjuna_odometry

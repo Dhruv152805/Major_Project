@@ -1,0 +1,55 @@
+running develop
+running egg_info
+creating arjuna_main.egg-info
+writing arjuna_main.egg-info/PKG-INFO
+writing dependency_links to arjuna_main.egg-info/dependency_links.txt
+writing entry points to arjuna_main.egg-info/entry_points.txt
+writing requirements to arjuna_main.egg-info/requires.txt
+writing top-level names to arjuna_main.egg-info/top_level.txt
+writing manifest file 'arjuna_main.egg-info/SOURCES.txt'
+reading manifest file 'arjuna_main.egg-info/SOURCES.txt'
+writing manifest file 'arjuna_main.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/python3.10/site-packages/arjuna-main.egg-link (link to .)
+Installing QR_CT script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing QR_Recog script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing QR_Tracking script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing arjuna_terminal_goal script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing camera_pub script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing camera_sub script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing data_code script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing fleet_dashboard script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing go_to_point_terminal script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing multi_point_terminal script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing obstacle_avoidance script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+Installing rviz_goal_bridge script to /home/dhruv/Arjuna_ws_team3/install/arjuna_main/lib/arjuna_main
+
+Installed /home/dhruv/Arjuna_ws_team3/build/arjuna_main
+running symlink_data
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/ament_index
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/ament_index/resource_index
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/ament_index/resource_index/packages
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/resource/arjuna_main -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/ament_index/resource_index/packages
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/package.xml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/launch
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/launch/bringup_launch.py -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/launch
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/launch/mapping_launch.py -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/launch
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/config/nav2_params.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/config/ekf.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/config/mapper_params_online_async.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/config/arjuna_params.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/config/arjuna_slam.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/config
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/rviz
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/rviz/arjuna.rviz -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/rviz
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/rviz/slam.rviz -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/rviz
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/maps
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/maps/my_map.yaml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/maps
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/maps/my_map.pgm -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/maps
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/webpage
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/webpage/Arjuna.css -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/webpage
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/webpage/Arjuna.html -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/webpage
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/webpage/Arjuna.js -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/webpage
+creating /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/behavior_trees
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/behavior_trees/arjuna_nav_bt.xml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/behavior_trees
+symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_main/arjuna_main/behavior_trees/arjuna_nav_through_poses_bt.xml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_main/share/arjuna_main/behavior_trees

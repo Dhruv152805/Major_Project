@@ -1,0 +1,76 @@
+[0.728s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/sllidar_ros2 -- -j6 -l6
+[1.306s] [ 10%] Built target sllidar_client
+[1.307s] [100%] Built target sllidar_node
+[1.905s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/sllidar_ros2 -- -j6 -l6
+[1.917s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/sllidar_ros2
+[1.938s] -- Install configuration: ""
+[1.938s] -- Execute custom install script
+[1.938s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_a1_launch.cpython-310.pyc
+[1.938s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_a2m12_launch .cpython-310.pyc
+[1.938s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_a2m7_launch.cpython-310.pyc
+[1.938s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_a2m8_launch.cpython-310.pyc
+[1.938s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_a3_launch.cpython-310.pyc
+[1.939s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_c1_launch.cpython-310.pyc
+[1.939s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_s1_launch.cpython-310.pyc
+[1.939s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_s1_tcp_launch.cpython-310.pyc
+[1.939s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_s2_launch.cpython-310.pyc
+[1.940s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_s2e_launch.cpython-310.pyc
+[1.941s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_s3_launch.cpython-310.pyc
+[1.941s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_t1_launch.cpython-310.pyc
+[1.942s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_a1_launch.cpython-310.pyc
+[1.942s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_a2m12_launch.cpython-310.pyc
+[1.943s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_a2m7_launch.cpython-310.pyc
+[1.943s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_a2m8_launch.cpython-310.pyc
+[1.943s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_a3_launch.cpython-310.pyc
+[1.944s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_c1_launch.cpython-310.pyc
+[1.944s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_s1_launch.cpython-310.pyc
+[1.944s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_s1_tcp_launch.cpython-310.pyc
+[1.945s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_s2_launch.cpython-310.pyc
+[1.945s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_s2e_launch.cpython-310.pyc
+[1.946s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_s3_launch.cpython-310.pyc
+[1.946s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/view_sllidar_t1_launch.cpython-310.pyc
+[1.946s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.947s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.947s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.947s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.948s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.948s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.949s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.950s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.950s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.960s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.962s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.980s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.980s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.981s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.982s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.982s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.982s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.983s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.983s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.983s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.983s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.983s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.984s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.985s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.985s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.985s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.985s] -- Symlinking: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.012s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.012s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.182s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/sllidar_ros2

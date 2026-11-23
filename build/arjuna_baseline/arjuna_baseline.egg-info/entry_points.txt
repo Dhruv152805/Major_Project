@@ -1,0 +1,3 @@
+[console_scripts]
+nearest_robot_controller = arjuna_baseline.nearest_robot_controller:main
+

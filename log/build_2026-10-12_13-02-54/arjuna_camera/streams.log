@@ -1,0 +1,10 @@
+[0.080s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6
+[0.226s] failed to create symbolic link '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera/ament_cmake_python/arjuna_camera/arjuna_camera' because existing path cannot be removed: Is a directory
+[0.227s] [  2%] Built target arjuna_camera__rs
+[0.230s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_arjuna_camera.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_arjuna_camera] Error 1
+[0.231s] gmake[1]: *** [CMakeFiles/Makefile2:539: CMakeFiles/ament_cmake_python_symlink_arjuna_camera.dir/all] Error 2
+[0.232s] gmake[1]: *** Waiting for unfinished jobs....
+[0.234s] [  5%] Built target arjuna_camera__cpp
+[0.255s] [ 15%] Built target arjuna_camera__rosidl_generator_c
+[0.260s] gmake: *** [Makefile:146: all] Error 2
+[0.685s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6

@@ -1,0 +1,23 @@
+[0.136s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/imu_bno055 -- -j6 -l6
+[1.359s] [100%] Built target bno055_i2c_node
+[1.943s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/imu_bno055 -- -j6 -l6
+[1.970s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/imu_bno055
+[1.995s] -- Install configuration: ""
+[1.996s] -- Execute custom install script
+[1.997s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/lib/imu_bno055/bno055_i2c_node
+[1.998s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/package_run_dependencies/imu_bno055
+[1.999s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/parent_prefix_path/imu_bno055
+[2.000s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.sh
+[2.002s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.dsv
+[2.003s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/path.sh
+[2.003s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/path.dsv
+[2.003s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.bash
+[2.004s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.sh
+[2.004s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.zsh
+[2.004s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.dsv
+[2.004s] -- Symlinking: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/package.dsv
+[2.010s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/packages/imu_bno055
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config.cmake
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config-version.cmake
+[2.011s] -- Up-to-date symlink: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/package.xml
+[2.060s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/imu_bno055

@@ -1,0 +1,24 @@
+[2.572s] Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_controller': PYTHONPATH=/home/dhruv/Arjuna_ws_team3/build/arjuna_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dhruv/Arjuna_ws_team3/build/arjuna_controller/build --no-deps symlink_data
+[3.235s] running develop
+[3.527s] running egg_info
+[3.529s] creating arjuna_controller.egg-info
+[3.529s] writing arjuna_controller.egg-info/PKG-INFO
+[3.529s] writing dependency_links to arjuna_controller.egg-info/dependency_links.txt
+[3.529s] writing entry points to arjuna_controller.egg-info/entry_points.txt
+[3.530s] writing requirements to arjuna_controller.egg-info/requires.txt
+[3.530s] writing top-level names to arjuna_controller.egg-info/top_level.txt
+[3.530s] writing manifest file 'arjuna_controller.egg-info/SOURCES.txt'
+[3.531s] reading manifest file 'arjuna_controller.egg-info/SOURCES.txt'
+[3.533s] writing manifest file 'arjuna_controller.egg-info/SOURCES.txt'
+[3.535s] running build_ext
+[3.536s] Creating /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages/arjuna-controller.egg-link (link to .)
+[3.538s] Installing Arjuna_Controller script to /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/lib/arjuna_controller
+[3.538s] 
+[3.538s] Installed /home/dhruv/Arjuna_ws_team3/build/arjuna_controller
+[3.539s] running symlink_data
+[3.539s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/share/ament_index
+[3.539s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/share/ament_index/resource_index
+[3.540s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/share/ament_index/resource_index/packages
+[3.540s] symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_controller/resource/arjuna_controller -> /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/share/ament_index/resource_index/packages
+[3.543s] symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_controller/package.xml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_controller/share/arjuna_controller
+[3.605s] Invoked command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_controller' returned '0': PYTHONPATH=/home/dhruv/Arjuna_ws_team3/build/arjuna_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/Arjuna_ws_team3/install/arjuna_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dhruv/Arjuna_ws_team3/build/arjuna_controller/build --no-deps symlink_data

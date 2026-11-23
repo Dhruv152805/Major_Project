@@ -1,0 +1,47 @@
+[4.141s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data
+[5.062s] running egg_info
+[5.165s] writing ../../build/arjuna_auction/arjuna_auction.egg-info/PKG-INFO
+[5.167s] writing dependency_links to ../../build/arjuna_auction/arjuna_auction.egg-info/dependency_links.txt
+[5.169s] writing entry points to ../../build/arjuna_auction/arjuna_auction.egg-info/entry_points.txt
+[5.170s] writing requirements to ../../build/arjuna_auction/arjuna_auction.egg-info/requires.txt
+[5.170s] writing top-level names to ../../build/arjuna_auction/arjuna_auction.egg-info/top_level.txt
+[5.333s] reading manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[5.337s] writing manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[5.337s] running build
+[5.338s] running build_py
+[5.338s] copying arjuna_auction/heartbeat_monitor.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+[5.339s] copying arjuna_auction/train_bid_model.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+[5.340s] copying arjuna_auction/analyze_runs.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+[5.340s] copying arjuna_auction/auction_node.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+[5.341s] copying arjuna_auction/task_injector.py -> /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction
+[5.343s] running install
+[5.356s] running install_lib
+[5.407s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/heartbeat_monitor.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+[5.409s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/train_bid_model.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+[5.410s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/analyze_runs.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+[5.413s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/auction_node.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+[5.414s] copying /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build/lib/arjuna_auction/task_injector.py -> /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction
+[5.414s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/heartbeat_monitor.py to heartbeat_monitor.cpython-310.pyc
+[5.415s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/train_bid_model.py to train_bid_model.cpython-310.pyc
+[5.420s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/__init__.py to __init__.cpython-310.pyc
+[5.421s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/analyze_runs.py to analyze_runs.cpython-310.pyc
+[5.426s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/auction_node.py to auction_node.cpython-310.pyc
+[5.436s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/task_marker_node.py to task_marker_node.cpython-310.pyc
+[5.438s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/record_points.py to record_points.cpython-310.pyc
+[5.445s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/task_injector.py to task_injector.cpython-310.pyc
+[5.449s] byte-compiling /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction/set_home_poses.py to set_home_poses.cpython-310.pyc
+[5.451s] running install_data
+[5.453s] running install_egg_info
+[5.499s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info' (and everything under it)
+[5.500s] Copying ../../build/arjuna_auction/arjuna_auction.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info
+[5.502s] running install_scripts
+[5.595s] Installing analyze_runs script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.596s] Installing auction_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.596s] Installing heartbeat_monitor script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.596s] Installing record_points script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.597s] Installing set_home_poses script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.597s] Installing task_injector script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.597s] Installing task_marker_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.598s] Installing train_bid_model script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.599s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log'
+[5.693s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction' returned '0': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data

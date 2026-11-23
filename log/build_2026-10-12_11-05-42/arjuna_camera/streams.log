@@ -1,0 +1,327 @@
+[0.066s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/arjuna_camera -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/arjuna_camera
+[0.089s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.089s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.089s]   CMake.
+[0.089s] 
+[0.089s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.089s]   to tell CMake that the project requires at least <min> but has been updated
+[0.089s]   to work with policies introduced by <max> or earlier.
+[0.090s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.090s] to suppress it.
+[0.090s] [0m
+[0.297s] -- The C compiler identification is GNU 11.4.0
+[0.739s] -- The CXX compiler identification is GNU 11.4.0
+[0.779s] -- Detecting C compiler ABI info
+[1.332s] -- Detecting C compiler ABI info - done
+[1.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.379s] -- Detecting C compile features
+[1.380s] -- Detecting C compile features - done
+[1.408s] -- Detecting CXX compiler ABI info
+[1.840s] -- Detecting CXX compiler ABI info - done
+[1.903s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.903s] -- Detecting CXX compile features
+[1.906s] -- Detecting CXX compile features - done
+[1.974s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.851s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.438s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.495s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.160s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.358s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.221s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.443s] [33mCMake Warning (policy) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[12.443s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.443s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.444s]   the cmake_policy command to set the policy and suppress this warning.
+[12.444s] Call Stack (most recent call first):
+[12.444s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.444s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.445s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[12.445s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[12.445s] suppress it.
+[12.446s] [0m
+[12.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[12.509s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.512s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[12.512s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.513s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.513s]   the cmake_policy command to set the policy and suppress this warning.
+[12.513s] Call Stack (most recent call first):
+[12.514s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[12.514s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.514s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.514s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[12.515s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[12.515s] suppress it.
+[12.515s] [0m
+[12.571s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[12.572s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.572s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.572s]   the cmake_policy command to set the policy and suppress this warning.
+[12.572s] Call Stack (most recent call first):
+[12.573s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[12.573s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.573s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.574s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[12.574s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[12.574s] suppress it.
+[12.574s] [0m
+[12.598s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[12.599s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.600s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.600s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[12.658s] -- Found PythonExtra: .so
+[13.285s] -- Configuring done (13.2s)
+[13.417s] -- Generating done (0.1s)
+[13.478s] -- Build files have been written to: /home/arjuna/Arjuna_ws_team3/build/arjuna_camera
+[13.525s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/arjuna_camera -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/arjuna_camera
+[13.526s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6
+[13.666s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[13.703s] [  5%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[13.747s] [  7%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[13.806s] [  7%] Built target ament_cmake_python_copy_arjuna_camera
+[14.862s] [  7%] Built target arjuna_camera__rs
+[15.045s] running egg_info
+[15.111s] creating arjuna_camera.egg-info
+[15.112s] writing arjuna_camera.egg-info/PKG-INFO
+[15.113s] writing dependency_links to arjuna_camera.egg-info/dependency_links.txt
+[15.114s] writing top-level names to arjuna_camera.egg-info/top_level.txt
+[15.114s] writing manifest file 'arjuna_camera.egg-info/SOURCES.txt'
+[15.333s] reading manifest file 'arjuna_camera.egg-info/SOURCES.txt'
+[15.349s] writing manifest file 'arjuna_camera.egg-info/SOURCES.txt'
+[15.457s] [  7%] Built target arjuna_camera__cpp
+[15.494s] [ 10%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.517s] [ 10%] Built target ament_cmake_python_build_arjuna_camera_egg
+[15.534s] [ 12%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.582s] [ 15%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[15.646s] [ 17%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_generator_c.dir/rosidl_generator_c/arjuna_camera/srv/detail/get_object_pose__functions.c.o[0m
+[15.674s] [ 20%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_generator_c.dir/rosidl_generator_c/arjuna_camera/srv/detail/list_objects__functions.c.o[0m
+[16.050s] [ 22%] [1m[32mLinking C shared library libarjuna_camera__rosidl_generator_c.so[0m
+[16.291s] [ 22%] Built target arjuna_camera__rosidl_generator_c
+[16.364s] [ 27%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[16.373s] [ 27%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[16.406s] [ 30%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[16.978s] [ 32%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arjuna_camera/srv/get_object_pose__type_support.cpp.o[0m
+[17.019s] [ 35%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arjuna_camera/srv/detail/get_object_pose__type_support.cpp.o[0m
+[17.114s] [ 37%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arjuna_camera/srv/detail/dds_fastrtps/get_object_pose__type_support.cpp.o[0m
+[17.868s] [ 40%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_c.dir/rosidl_typesupport_c/arjuna_camera/srv/get_object_pose__type_support.cpp.o[0m
+[18.071s] [ 42%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_c.dir/rosidl_typesupport_c/arjuna_camera/srv/list_objects__type_support.cpp.o[0m
+[18.174s] [ 45%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arjuna_camera/srv/detail/get_object_pose__type_support_c.cpp.o[0m
+[18.258s] [ 50%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arjuna_camera/srv/list_objects__type_support.cpp.o[0m
+[18.261s] [ 50%] [1m[32mLinking CXX shared library libarjuna_camera__rosidl_typesupport_c.so[0m
+[18.287s] [ 52%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arjuna_camera/srv/detail/get_object_pose__type_support.c.o[0m
+[18.502s] [ 52%] Built target arjuna_camera__rosidl_typesupport_c
+[18.518s] [ 55%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arjuna_camera/srv/detail/list_objects__type_support.c.o[0m
+[18.554s] [ 57%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arjuna_camera/srv/detail/list_objects__type_support_c.cpp.o[0m
+[18.742s] [ 60%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arjuna_camera/srv/detail/dds_fastrtps/list_objects__type_support.cpp.o[0m
+[18.814s] [ 62%] [32mBuilding CXX object CMakeFiles/arjuna_camera__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arjuna_camera/srv/detail/list_objects__type_support.cpp.o[0m
+[18.844s] [ 65%] [1m[32mLinking C shared library libarjuna_camera__rosidl_typesupport_introspection_c.so[0m
+[19.054s] [ 65%] Built target arjuna_camera__rosidl_typesupport_introspection_c
+[19.594s] [ 67%] [1m[32mLinking CXX shared library libarjuna_camera__rosidl_typesupport_cpp.so[0m
+[19.838s] [ 67%] Built target arjuna_camera__rosidl_typesupport_cpp
+[20.162s] [ 70%] [1m[32mLinking CXX shared library libarjuna_camera__rosidl_typesupport_fastrtps_c.so[0m
+[20.501s] [ 70%] Built target arjuna_camera__rosidl_typesupport_fastrtps_c
+[20.778s] [ 72%] [1m[32mLinking CXX shared library libarjuna_camera__rosidl_typesupport_introspection_cpp.so[0m
+[20.798s] [ 75%] [1m[32mLinking CXX shared library libarjuna_camera__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.014s] [ 75%] Built target arjuna_camera__rosidl_typesupport_introspection_cpp
+[21.097s] [ 75%] Built target arjuna_camera__rosidl_typesupport_fastrtps_cpp
+[21.143s] [ 75%] Built target arjuna_camera
+[21.195s] [ 77%] [1m[34mGenerating Python code for ROS interfaces[0m
+[22.624s] [ 77%] Built target arjuna_camera__py
+[22.665s] [ 80%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_generator_py.dir/rosidl_generator_py/arjuna_camera/srv/_get_object_pose_s.c.o[0m
+[22.687s] [ 82%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_generator_py.dir/rosidl_generator_py/arjuna_camera/srv/_list_objects_s.c.o[0m
+[23.104s] [ 85%] [1m[32mLinking C shared library rosidl_generator_py/arjuna_camera/libarjuna_camera__rosidl_generator_py.so[0m
+[23.195s] [ 85%] Built target arjuna_camera__rosidl_generator_py
+[23.256s] [ 87%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.258s] [ 90%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_c.c.o[0m
+[23.274s] [ 92%] [32mBuilding C object CMakeFiles/arjuna_camera__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.530s] [ 95%] [1m[32mLinking C shared library rosidl_generator_py/arjuna_camera/arjuna_camera_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.566s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/arjuna_camera/arjuna_camera_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.639s] [ 97%] Built target arjuna_camera__rosidl_typesupport_c__pyext
+[23.705s] [100%] [1m[32mLinking C shared library rosidl_generator_py/arjuna_camera/arjuna_camera_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.719s] [100%] Built target arjuna_camera__rosidl_typesupport_introspection_c__pyext
+[23.808s] [100%] Built target arjuna_camera__rosidl_typesupport_fastrtps_c__pyext
+[23.836s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6
+[23.854s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/arjuna_camera
+[23.873s] -- Install configuration: ""
+[23.873s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/ament_index/resource_index/rosidl_interfaces/arjuna_camera
+[23.874s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.874s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.874s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/get_object_pose.h
+[23.875s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/list_objects.h
+[23.875s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.875s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__functions.c
+[23.875s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__type_support.h
+[23.876s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__type_support.h
+[23.876s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__struct.h
+[23.876s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__functions.h
+[23.877s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__functions.c
+[23.877s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__functions.h
+[23.877s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__struct.h
+[23.877s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg
+[23.878s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg/rosidl_generator_c__visibility_control.h
+[23.879s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/library_path.sh
+[23.879s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/library_path.dsv
+[23.879s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_generator_c.so
+[23.880s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_generator_c.so" to ""
+[23.880s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.880s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.880s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.881s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__rosidl_typesupport_fastrtps_c.h
+[23.881s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__rosidl_typesupport_fastrtps_c.h
+[23.881s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg
+[23.881s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.881s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_fastrtps_c.so
+[23.882s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_fastrtps_c.so" to ""
+[23.882s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.883s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.883s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.883s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__type_support.c
+[23.883s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__rosidl_typesupport_introspection_c.h
+[23.883s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__type_support.c
+[23.884s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__rosidl_typesupport_introspection_c.h
+[23.884s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg
+[23.884s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.884s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_introspection_c.so
+[23.885s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_introspection_c.so" to ""
+[23.885s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_c.so
+[23.886s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_c.so" to ""
+[23.886s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.886s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.886s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/get_object_pose.hpp
+[23.887s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/list_objects.hpp
+[23.887s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.887s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__builder.hpp
+[23.887s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__traits.hpp
+[23.887s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__type_support.hpp
+[23.888s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__struct.hpp
+[23.888s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__type_support.hpp
+[23.889s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__traits.hpp
+[23.889s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__struct.hpp
+[23.889s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__builder.hpp
+[23.890s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg
+[23.890s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.890s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.890s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.891s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.891s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[23.891s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[23.891s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/dds_fastrtps
+[23.892s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg
+[23.892s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.892s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_fastrtps_cpp.so
+[23.893s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.893s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera
+[23.893s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv
+[23.893s] -- Up-to-date: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail
+[23.893s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__type_support.cpp
+[23.903s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__type_support.cpp
+[23.903s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/get_object_pose__rosidl_typesupport_introspection_cpp.hpp
+[23.903s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/include/arjuna_camera/arjuna_camera/srv/detail/list_objects__rosidl_typesupport_introspection_cpp.hpp
+[23.903s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_introspection_cpp.so
+[23.904s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_introspection_cpp.so" to ""
+[23.904s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_cpp.so
+[23.904s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_typesupport_cpp.so" to ""
+[23.904s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/pythonpath.sh
+[23.904s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/pythonpath.dsv
+[23.904s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera-0.0.1-py3.10.egg-info
+[23.905s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera-0.0.1-py3.10.egg-info/PKG-INFO
+[23.905s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera-0.0.1-py3.10.egg-info/dependency_links.txt
+[23.905s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera-0.0.1-py3.10.egg-info/SOURCES.txt
+[23.905s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera-0.0.1-py3.10.egg-info/top_level.txt
+[23.905s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/__init__.py
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_get_object_pose.py
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_list_objects_s.c
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_get_object_pose_s.c
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_list_objects.py
+[23.906s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/__init__.py
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_introspection_c.c
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_c.c
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/libarjuna_camera__rosidl_generator_py.so
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/_arjuna_camera_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.907s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[24.013s] Listing '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera'...
+[24.013s] Compiling '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/__init__.py'...
+[24.013s] Listing '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv'...
+[24.013s] Compiling '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/__init__.py'...
+[24.013s] Compiling '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_get_object_pose.py'...
+[24.014s] Compiling '/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/srv/_list_objects.py'...
+[24.030s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[24.030s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.030s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[24.031s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.032s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[24.032s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/local/lib/python3.10/dist-packages/arjuna_camera/arjuna_camera_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.033s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_generator_py.so
+[24.033s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/libarjuna_camera__rosidl_generator_py.so" to ""
+[24.034s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust
+[24.034s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/src
+[24.034s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/src/srv
+[24.035s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/src/srv/rmw.rs
+[24.035s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/src/srv.rs
+[24.036s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/src/lib.rs
+[24.036s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/Cargo.toml
+[24.036s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rust/build.rs
+[24.037s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/GetObjectPose.idl
+[24.037s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/ListObjects.idl
+[24.038s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/GetObjectPose.srv
+[24.038s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/GetObjectPose_Request.msg
+[24.039s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/GetObjectPose_Response.msg
+[24.039s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/ListObjects.srv
+[24.040s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/ListObjects_Request.msg
+[24.040s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/srv/ListObjects_Response.msg
+[24.040s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/lib/arjuna_camera/teaching_node.py
+[24.041s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/launch
+[24.041s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/launch/teaching.launch.py
+[24.041s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/models
+[24.042s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/models/mobilenet-ssd_openvino_2021.4_6shave.blob
+[24.073s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rviz
+[24.073s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/rviz/teaching.rviz
+[24.073s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/ament_index/resource_index/package_run_dependencies/arjuna_camera
+[24.074s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/ament_index/resource_index/parent_prefix_path/arjuna_camera
+[24.074s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/ament_prefix_path.sh
+[24.074s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/ament_prefix_path.dsv
+[24.075s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/path.sh
+[24.075s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/environment/path.dsv
+[24.075s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/local_setup.bash
+[24.076s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/local_setup.sh
+[24.076s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/local_setup.zsh
+[24.076s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/local_setup.dsv
+[24.077s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/package.dsv
+[24.077s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/ament_index/resource_index/packages/arjuna_camera
+[24.077s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_generator_cExport.cmake
+[24.078s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_generator_cExport-noconfig.cmake
+[24.078s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_typesupport_fastrtps_cExport.cmake
+[24.080s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.080s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_introspection_cExport.cmake
+[24.080s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.080s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_cExport.cmake
+[24.080s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_cExport-noconfig.cmake
+[24.081s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_generator_cppExport.cmake
+[24.081s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.081s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.081s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_introspection_cppExport.cmake
+[24.082s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.082s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_cppExport.cmake
+[24.082s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_camera__rosidl_typesupport_cppExport-noconfig.cmake
+[24.082s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_generator_pyExport.cmake
+[24.083s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/export_arjuna_camera__rosidl_generator_pyExport-noconfig.cmake
+[24.083s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/rosidl_cmake-extras.cmake
+[24.083s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.084s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.084s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[24.084s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/ament_cmake_export_targets-extras.cmake
+[24.085s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.085s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.085s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[24.086s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_cameraConfig.cmake
+[24.086s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/cmake/arjuna_cameraConfig-version.cmake
+[24.086s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/arjuna_camera/share/arjuna_camera/package.xml
+[24.094s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/arjuna_camera

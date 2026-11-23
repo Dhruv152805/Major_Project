@@ -1,0 +1,9 @@
+source;share/arjuna_main/hook/pythonpath.ps1
+source;share/arjuna_main/hook/pythonpath.dsv
+source;share/arjuna_main/hook/pythonpath.sh
+source;share/arjuna_main/hook/ament_prefix_path.ps1
+source;share/arjuna_main/hook/ament_prefix_path.dsv
+source;share/arjuna_main/hook/ament_prefix_path.sh
+source;../../build/arjuna_main/share/arjuna_main/hook/pythonpath_develop.ps1
+source;../../build/arjuna_main/share/arjuna_main/hook/pythonpath_develop.dsv
+source;../../build/arjuna_main/share/arjuna_main/hook/pythonpath_develop.sh

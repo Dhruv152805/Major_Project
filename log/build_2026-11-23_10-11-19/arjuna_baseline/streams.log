@@ -1,0 +1,24 @@
+[2.809s] Invoking command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_baseline': PYTHONPATH=/home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/build --no-deps symlink_data
+[3.356s] running develop
+[3.566s] running egg_info
+[3.566s] creating arjuna_baseline.egg-info
+[3.566s] writing arjuna_baseline.egg-info/PKG-INFO
+[3.566s] writing dependency_links to arjuna_baseline.egg-info/dependency_links.txt
+[3.568s] writing entry points to arjuna_baseline.egg-info/entry_points.txt
+[3.569s] writing requirements to arjuna_baseline.egg-info/requires.txt
+[3.569s] writing top-level names to arjuna_baseline.egg-info/top_level.txt
+[3.570s] writing manifest file 'arjuna_baseline.egg-info/SOURCES.txt'
+[3.574s] reading manifest file 'arjuna_baseline.egg-info/SOURCES.txt'
+[3.578s] writing manifest file 'arjuna_baseline.egg-info/SOURCES.txt'
+[3.579s] running build_ext
+[3.580s] Creating /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages/arjuna-baseline.egg-link (link to .)
+[3.582s] Installing nearest_robot_controller script to /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/lib/arjuna_baseline
+[3.584s] 
+[3.584s] Installed /home/dhruv/Arjuna_ws_team3/build/arjuna_baseline
+[3.586s] running symlink_data
+[3.586s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/share/ament_index
+[3.586s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/share/ament_index/resource_index
+[3.586s] creating /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/share/ament_index/resource_index/packages
+[3.586s] symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/resource/arjuna_baseline -> /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/share/ament_index/resource_index/packages
+[3.592s] symbolically linking /home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/package.xml -> /home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/share/arjuna_baseline
+[3.653s] Invoked command in '/home/dhruv/Arjuna_ws_team3/build/arjuna_baseline' returned '0': PYTHONPATH=/home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhruv/Arjuna_ws_team3/install/arjuna_baseline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dhruv/Arjuna_ws_team3/build/arjuna_baseline/build --no-deps symlink_data

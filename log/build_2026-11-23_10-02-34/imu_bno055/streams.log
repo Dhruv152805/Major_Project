@@ -1,0 +1,33 @@
+[0.042s] Invoking command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhruv/Arjuna_ws_team3/src/ros-imu-bno055 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/imu_bno055
+[1.154s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.154s]   By not providing "Findros_environment.cmake" in CMAKE_MODULE_PATH this
+[1.154s]   project has asked CMake to find a package configuration file provided by
+[1.154s]   "ros_environment", but CMake did not find one.
+[1.154s] 
+[1.155s]   Could not find a package configuration file provided by "ros_environment"
+[1.155s]   with any of the following names:
+[1.155s] 
+[1.155s]     ros_environmentConfig.cmake
+[1.155s]     ros_environment-config.cmake
+[1.155s] 
+[1.155s]   Add the installation prefix of "ros_environment" to CMAKE_PREFIX_PATH or
+[1.155s]   set "ros_environment_DIR" to a directory containing one of the above files.
+[1.155s]   If "ros_environment" provides a separate development package or SDK, be
+[1.155s]   sure it has been installed.
+[1.155s] 
+[1.155s] 
+[1.156s] -- The C compiler identification is GNU 11.4.0
+[1.156s] -- The CXX compiler identification is GNU 11.4.0
+[1.156s] -- Detecting C compiler ABI info
+[1.156s] -- Detecting C compiler ABI info - done
+[1.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.156s] -- Detecting C compile features
+[1.156s] -- Detecting C compile features - done
+[1.156s] -- Detecting CXX compiler ABI info
+[1.156s] -- Detecting CXX compiler ABI info - done
+[1.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.157s] -- Detecting CXX compile features
+[1.157s] -- Detecting CXX compile features - done
+[1.157s] -- Configuring incomplete, errors occurred!
+[1.157s] See also "/home/dhruv/Arjuna_ws_team3/build/imu_bno055/CMakeFiles/CMakeOutput.log".
+[1.161s] Invoked command in '/home/dhruv/Arjuna_ws_team3/build/imu_bno055' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhruv/Arjuna_ws_team3/src/ros-imu-bno055 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhruv/Arjuna_ws_team3/install/imu_bno055

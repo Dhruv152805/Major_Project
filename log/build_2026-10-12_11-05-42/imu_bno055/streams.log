@@ -1,0 +1,64 @@
+[0.108s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/ros-imu-bno055 -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/imu_bno055
+[1.201s] -- The C compiler identification is GNU 11.4.0
+[1.203s] -- The CXX compiler identification is GNU 11.4.0
+[1.204s] -- Detecting C compiler ABI info
+[1.204s] -- Detecting C compiler ABI info - done
+[1.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.205s] -- Detecting C compile features
+[1.205s] -- Detecting C compile features - done
+[1.205s] -- Detecting CXX compiler ABI info
+[1.205s] -- Detecting CXX compiler ABI info - done
+[1.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.205s] -- Detecting CXX compile features
+[1.206s] -- Detecting CXX compile features - done
+[1.206s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[1.206s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.660s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[1.806s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.824s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.856s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.111s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.120s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.493s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")
+[2.581s] -- Found FastRTPS: /opt/ros/humble/include
+[2.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.981s] -- Found Threads: TRUE
+[3.172s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.272s] -- Found diagnostic_msgs: 4.9.2 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[3.316s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[3.530s] -- Configuring done (3.4s)
+[3.567s] -- Generating done (0.0s)
+[3.636s] -- Build files have been written to: /home/arjuna/Arjuna_ws_team3/build/imu_bno055
+[3.683s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/ros-imu-bno055 -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/imu_bno055
+[3.684s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/imu_bno055 -- -j6 -l6
+[3.942s] [ 25%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_driver.cpp.o[0m
+[3.943s] [ 50%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/watchdog.cpp.o[0m
+[3.943s] [ 75%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_node_ros2.cpp.o[0m
+[30.685s] [100%] [1m[32mLinking CXX executable bno055_i2c_node[0m
+[31.387s] [100%] Built target bno055_i2c_node
+[31.414s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/imu_bno055 -- -j6 -l6
+[31.418s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/imu_bno055
+[31.437s] -- Install configuration: ""
+[31.438s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/lib/imu_bno055/bno055_i2c_node
+[31.445s] -- Set non-toolchain portion of runtime path of "/home/arjuna/Arjuna_ws_team3/install/imu_bno055/lib/imu_bno055/bno055_i2c_node" to ""
+[31.446s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/package_run_dependencies/imu_bno055
+[31.446s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/parent_prefix_path/imu_bno055
+[31.446s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.sh
+[31.447s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.dsv
+[31.447s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/path.sh
+[31.447s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/environment/path.dsv
+[31.447s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.bash
+[31.448s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.sh
+[31.448s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.zsh
+[31.448s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/local_setup.dsv
+[31.449s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/package.dsv
+[31.449s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/ament_index/resource_index/packages/imu_bno055
+[31.449s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config.cmake
+[31.449s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config-version.cmake
+[31.450s] -- Installing: /home/arjuna/Arjuna_ws_team3/install/imu_bno055/share/imu_bno055/package.xml
+[31.455s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --install /home/arjuna/Arjuna_ws_team3/build/imu_bno055

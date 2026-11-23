@@ -1,0 +1,75 @@
+[0.066s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/arjuna_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/arjuna_camera
+[0.131s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.131s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.131s]   CMake.
+[0.131s] 
+[0.131s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.132s]   to tell CMake that the project requires at least <min> but has been updated
+[0.132s]   to work with policies introduced by <max> or earlier.
+[0.132s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.132s] to suppress it.
+[0.132s] [0m
+[0.172s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.892s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.906s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.172s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.401s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.343s] [33mCMake Warning (policy) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[5.344s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.344s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.344s]   the cmake_policy command to set the policy and suppress this warning.
+[5.345s] Call Stack (most recent call first):
+[5.345s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.345s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.345s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[5.346s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[5.346s] suppress it.
+[5.346s] [0m
+[5.396s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.397s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[5.397s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.397s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.397s]   the cmake_policy command to set the policy and suppress this warning.
+[5.398s] Call Stack (most recent call first):
+[5.398s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.399s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.399s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.399s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[5.399s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[5.400s] suppress it.
+[5.400s] [0m
+[5.453s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[5.453s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.453s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.453s]   the cmake_policy command to set the policy and suppress this warning.
+[5.453s] Call Stack (most recent call first):
+[5.454s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.454s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.454s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.454s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[5.454s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[5.455s] suppress it.
+[5.455s] [0m
+[5.458s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.458s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.458s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.993s] -- Configuring done (5.9s)
+[6.102s] -- Generating done (0.1s)
+[6.148s] -- Build files have been written to: /home/arjuna/Arjuna_ws_team3/build/arjuna_camera
+[6.171s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake /home/arjuna/Arjuna_ws_team3/src/arjuna_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjuna/Arjuna_ws_team3/install/arjuna_camera
+[6.176s] Invoking command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6
+[6.270s] failed to create symbolic link '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera/ament_cmake_python/arjuna_camera/arjuna_camera' because existing path cannot be removed: Is a directory
+[6.272s] [  2%] Built target arjuna_camera__cpp
+[6.273s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_arjuna_camera.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_arjuna_camera] Error 1
+[6.273s] [  5%] Built target arjuna_camera__rs
+[6.273s] gmake[1]: *** [CMakeFiles/Makefile2:539: CMakeFiles/ament_cmake_python_symlink_arjuna_camera.dir/all] Error 2
+[6.273s] gmake[1]: *** Waiting for unfinished jobs....
+[6.275s] [ 15%] Built target arjuna_camera__rosidl_generator_c
+[6.279s] gmake: *** [Makefile:146: all] Error 2
+[6.284s] Invoked command in '/home/arjuna/Arjuna_ws_team3/build/arjuna_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjuna/Arjuna_ws_team3/install/arjuna_main:/home/arjuna/Arjuna_ws_team3/install/motor_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_controller:/home/arjuna/Arjuna_ws_team3/install/arjuna_baseline:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction:/opt/ros/humble /usr/bin/cmake --build /home/arjuna/Arjuna_ws_team3/build/arjuna_camera -- -j6 -l6

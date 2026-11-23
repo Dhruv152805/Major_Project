@@ -1,0 +1,28 @@
+[4.407s] Invoking command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data
+[5.212s] running egg_info
+[5.251s] writing ../../build/arjuna_auction/arjuna_auction.egg-info/PKG-INFO
+[5.253s] writing dependency_links to ../../build/arjuna_auction/arjuna_auction.egg-info/dependency_links.txt
+[5.254s] writing entry points to ../../build/arjuna_auction/arjuna_auction.egg-info/entry_points.txt
+[5.255s] writing requirements to ../../build/arjuna_auction/arjuna_auction.egg-info/requires.txt
+[5.256s] writing top-level names to ../../build/arjuna_auction/arjuna_auction.egg-info/top_level.txt
+[5.354s] reading manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[5.358s] writing manifest file '../../build/arjuna_auction/arjuna_auction.egg-info/SOURCES.txt'
+[5.358s] running build
+[5.359s] running build_py
+[5.361s] running install
+[5.371s] running install_lib
+[5.418s] running install_data
+[5.419s] running install_egg_info
+[5.471s] removing '/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info' (and everything under it)
+[5.471s] Copying ../../build/arjuna_auction/arjuna_auction.egg-info to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages/arjuna_auction-0.0.1-py3.10.egg-info
+[5.472s] running install_scripts
+[5.565s] Installing analyze_runs script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.567s] Installing auction_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.567s] Installing heartbeat_monitor script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.568s] Installing record_points script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.568s] Installing set_home_poses script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.568s] Installing task_injector script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.568s] Installing task_marker_node script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.568s] Installing train_bid_model script to /home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/arjuna_auction
+[5.570s] writing list of installed files to '/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log'
+[5.843s] Invoked command in '/home/arjuna/Arjuna_ws_team3/src/arjuna_auction' returned '0': PYTHONPATH=/home/arjuna/Arjuna_ws_team3/build/arjuna_auction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjuna/Arjuna_ws_team3/install/arjuna_auction/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arjuna_auction build --build-base /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/build install --record /home/arjuna/Arjuna_ws_team3/build/arjuna_auction/install.log --install-scripts $base/lib/arjuna_auction --single-version-externally-managed install_data
